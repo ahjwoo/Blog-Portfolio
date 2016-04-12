@@ -1,0 +1,28 @@
+<div class="wrapper wrapper_padding clearfix">
+  <div class="col-1 about homepage_content">
+    <h2>About</h2>
+    <hr>
+    <p>A Jr. Full Stack Developer living in Vancouver, BC, I am a recent graduate at Lighthouse Labs, a web development bootcamp where I learned all aspects of programming.</p>
+    <p>I enjoy coding, learning new programming languages, reading, writing, as well as staying fit.  </p>
+    <p>This space serves as my blog and portfolio, where you can view some of the things I've written -my thoughts, my vents- as well as my coding projects! </p>
+  </div>
+  <div class="col-3 homepage_content">
+    <h2>Stuff I've Built</h2>
+    <hr>
+
+    <h3><a href="#">Drop-in Pass</a></h3>
+    <p class="date">Date...</p>
+    <h3><a href="#">Rotten Bananas</a></h3>
+    <p class="date">Date...</p>
+    <h3><a href="#">Roadlette</a></h3>
+  </div>
+  <div class="col-2 homepage_content">
+    <h2>Stuff I've Written</h2>
+    <hr>
+
+    <% @posts.each do |post| %>
+      <h3><a href="#"><%= link_to post.title, post %></a></h3>
+      <p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
+      <% end %>
+  </div>
+</div>

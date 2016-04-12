@@ -10,7 +10,7 @@
 </head>
 <body>
   <header id="main_navigation" class="clearfix">
-    <a href="index.html" class="name">Andrew Woo</a>
+    <%= link_to "Andrew Woo", root_path, class: "name" %>
     <nav>
       <%= link_to "Articles", posts_path %>
       <a href="#">Projects</a>
@@ -21,4 +21,12 @@
 <%= yield %>
 
 </body>
+  <footer id="main_footer">
+    <p class="copyright">&copy; 2016 Andrew Woo</p>
+    <nav>
+      <a href="https://ca.linkedin.com/in/ahjwoo91
+" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/ahjwoo" target="_blank"><i class="fa fa-github"></i></a>
+    </nav>
+  </footer>
 </html>
