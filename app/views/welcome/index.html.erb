@@ -1,13 +1,22 @@
 <div class="wrapper wrapper_padding clearfix">
-  <div class="col-1 about homepage_content">
+  <div class="col-1 about homepage_content hidden-xs">
     <h2>About</h2>
     <hr>
     <p>A Jr. Full Stack Developer living in Vancouver, BC, I am a recent graduate at Lighthouse Labs, a web development bootcamp where I learned all aspects of programming.</p>
     <p>I enjoy coding, learning new programming languages, reading, writing, as well as staying fit.  </p>
     <p>This space serves as my blog and portfolio, where you can view some of the things I've written -my thoughts, my vents- as well as my coding projects! </p>
   </div>
+  <div class="col-1 about homepage_content hidden-lg hidden-md hidden-sm visible-xs col-xs-12">
+    <h2>About</h2>
+    <hr>
+    <p style="font-size:1rem;">A Jr. Full Stack Developer living in Vancouver, BC, I am a recent graduate at Lighthouse Labs, a web development bootcamp where I learned all aspects of programming.</p>
+    <p style="font-size:1rem;">I enjoy coding, learning new programming languages, reading, writing, as well as staying fit.  </p>
+    <p style="font-size:1rem;">This space serves as my blog and portfolio, where you can view some of the things I've written -my thoughts, my vents- as well as my coding projects! </p>
+    <br class="visible-xs">
 
-  <div class="col-2 homepage_content">
+  </div>
+
+  <div class="col-2 homepage_content hidden-xs">
     <h2>Stuff I've Written</h2>
     <hr>
 
@@ -17,7 +26,21 @@
     <% end %>
   </div>
 
-  <div class="col-3 homepage_content">
+  <!-- <hr class="visible-xs"> -->
+
+  <div class="col-2 homepage_content visible-xs col-xs-12">
+    <h2>Stuff I've Written</h2>
+    <hr>
+
+    <% @posts.each do |post| %>
+      <h3 style="font-size:1rem;"><a href="#"><%= link_to post.title, post %></a></h3>
+      <p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
+    <% end %>
+    <br class="visible-xs">
+
+  </div>
+
+  <div class="col-3 homepage_content hidden-xs">
     <h2>Stuff I've Built</h2>
     <hr>
 
@@ -25,5 +48,15 @@
       <h3><a href="#"><%= link_to project.title, project %></a></h3>
       <p class="date"><%= project.created_at.strftime("%A, %b, %d") %></p>
     <% end %>
-</div>
+  </div>
+  <br class="visible-xs">
+  <div class="col-3 homepage_content visible-xs col-xs-12">
+    <h2>Stuff I've Built</h2>
+    <hr>
+
+    <% @projects.each do |project| %>
+      <h3 style="font-size:1rem;"><a href="#"><%= link_to project.title, project %></a></h3>
+      <p class="date"><%= project.created_at.strftime("%A, %b, %d") %></p>
+    <% end %>
+  </div>  
 </div>
