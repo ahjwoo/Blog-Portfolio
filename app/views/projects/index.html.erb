@@ -7,6 +7,11 @@
           <h2><a href='#'><%= link_to project.title, project %></a></h2>
           <hr>
       </div>
+      <% end %> 
+    </div>
+
+    <div id="admin_links" style="text-align:center;">
+      <% if user_signed_in? %>
+        <h2><%= link_to "Add a project", new_project_path %></h2>
       <% end %>
-      
     </div>

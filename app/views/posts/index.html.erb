@@ -10,7 +10,12 @@
       <% end %>
       
     </div>
-
     
+    <div id="admin_links" style="text-align:center;">
+      <% if user_signed_in? %>
+        <h2><%= link_to "Add a post", new_post_path %></h2>
+      <% end %>
+    </div>
+
   
   <%= will_paginate @posts %>
