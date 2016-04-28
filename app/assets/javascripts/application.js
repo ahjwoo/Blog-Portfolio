@@ -14,3 +14,18 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+  //Smooth scroll to projects
+  $("#project_button").on('click', function() {
+    $('html,body').animate({
+      scrollTop: $("#project_start").offset().top}, 'slow');
+  });
+
+  //Smooth scroll to contact
+  $("#contact_button").on('click', function() {
+    $('html,body').animate({
+      scrollTop: $("#contact").offset().top}, 'slow');
+  });
+
+});

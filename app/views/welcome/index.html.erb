@@ -1,62 +1,111 @@
-<div class="wrapper wrapper_padding clearfix">
-  <div class="col-1 about homepage_content hidden-xs">
-    <h2>About</h2>
-    <hr>
-    <p>A Jr. Full Stack Developer living in Vancouver, BC, I am a recent graduate at Lighthouse Labs, a web development bootcamp where I learned all aspects of programming.</p>
-    <p>I enjoy coding, learning new programming languages, reading, writing, as well as staying fit.  </p>
-    <p>This space serves as my blog and portfolio, where you can view some of the things I've written -my thoughts, my vents- as well as my coding projects! </p>
+<div id="large-header">
+  <header id="main_navigation" class="clearfix">
+      <%= link_to "Andrew Woo", root_path, class: "name" %>
+      <nav>
+
+        <a id="project_button" href="#">Projects</a>
+        <a id="contact_button" href="#">Contact</a>
+        <%= link_to "Blog", posts_path %>
+        <% if user_signed_in? %>
+          <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+        <% end %>
+      </nav>
+  </header>
+  <div class="col-md-4"></div>
+  <div id="intro" class="col-xs-12 col-md-4">
+    <img id="profile" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b2/3d6/21687e5.jpg"/>
+
+    <p id="name">Hey, I'm Andrew!</p>
+      <div class="about">
+        <p class="text">I'm a Web Developer living in Vancouver BC. This page serves as my portfolio to display my projects as well as a space where you can read some of my blog posts!</p>
+      </div>
   </div>
-  <div class="col-1 about homepage_content hidden-lg hidden-md hidden-sm visible-xs col-xs-12">
-    <h2>About</h2>
-    <hr>
-    <p style="font-size:1rem;">A Jr. Full Stack Developer living in Vancouver, BC, I am a recent graduate at Lighthouse Labs, a web development bootcamp where I learned all aspects of programming.</p>
-    <p style="font-size:1rem;">I enjoy coding, learning new programming languages, reading, writing, as well as staying fit.  </p>
-    <p style="font-size:1rem;">This space serves as my blog and portfolio, where you can view some of the things I've written -my thoughts, my vents- as well as my coding projects! </p>
-    <br class="visible-xs">
-
-  </div>
-
-  <div class="col-2 homepage_content hidden-xs">
-    <h2>Things I've Written</h2>
-    <hr>
-
-    <% @posts.each do |post| %>
-      <h3><a href="#"><%= link_to post.title, post %></a></h3>
-      <p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
-    <% end %>
-  </div>
-
-  <!-- <hr class="visible-xs"> -->
-
-  <div class="col-2 homepage_content visible-xs col-xs-12">
-    <h2>Things I've Written</h2>
-    <hr>
-
-    <% @posts.each do |post| %>
-      <h3 style="font-size:1rem;"><a href="#"><%= link_to post.title, post %></a></h3>
-      <p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
-    <% end %>
-    <br class="visible-xs">
-
-  </div>
-
-  <div class="col-3 homepage_content hidden-xs">
-    <h2>Things I've Built</h2>
-    <hr>
-
-    <% @projects.each do |project| %>
-      <h3><a href="#"><%= link_to project.title, project %></a></h3>
-      <p class="date"><%= project.created_at.strftime("%A, %b, %d") %></p>
-    <% end %>
-  </div>
-  <br class="visible-xs">
-  <div class="col-3 homepage_content visible-xs col-xs-12">
-    <h2>Things I've Built</h2>
-    <hr>
-
-    <% @projects.each do |project| %>
-      <h3 style="font-size:1rem;"><a href="#"><%= link_to project.title, project %></a></h3>
-      <p class="date"><%= project.created_at.strftime("%A, %b, %d") %></p>
-    <% end %>
-  </div>  
+  <div class="col-md-4"></div>
 </div>
+
+<div id="project_start">
+  <div id="projects">
+    <div class="row">
+      <div class="col-md-2"></div>
+        <div class="wrapper">
+          <div class="imac-img col-md-4 col-xs-12">
+            <%= image_tag("iphoneimac_dropin.png")%>
+          </div>
+
+          <div class="project-text col-md-3 col-xs-12">
+            <h3><a href="#">Drop-in Pass</a></h3>
+            <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
+            <p><strong>Technologies used:</strong>Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers </p>
+          </div>
+        </div>
+      <div class="col-md-3"></div>
+    </div>  
+  </div>
+
+
+    <hr class="red-hr">
+
+
+  <div id="projects">
+    <div class="row">
+      <div class="col-md-2"></div>
+        <div class="imac-img col-md-4 col-xs-12">
+          <%= image_tag("iphoneimac_rotten.png")%>
+        </div>
+
+        <div class="project-text col-md-3 col-xs-12">
+          <h3><a href="#">Rotten Bananas</a></h3>
+          <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
+        </div>
+      <div class="col-md-3"></div>
+    </div>  
+  </div>
+
+  <div class="container">
+    <hr class="red-hr">
+  </div>
+
+  <div id="projects" style="padding-bottom: 5%;">
+    <div class="row">
+      <div class="col-md-2"></div>
+        <div class="imac-img col-md-4 col-xs-12">
+          <%= image_tag("iphoneimac_roadlette.png")%>
+        </div>
+
+        <div class="project-text col-md-3 col-xs-12">
+          <h3><a href="#">Roadlette</a></h3>
+          <p>Roadlette was my midterm project at Lighthouse Labs, built alongside two others.  We created an app where, if given a dollar amount and number of days, calculates a random roadtrip destination.  The starting location is set at Lighthouse Labs.</p>
+        </div>
+      <div class="col-md-3"></div>
+    </div>  
+  </div>
+</div>
+
+<div id="contact" class="second-header">
+  <h1 id="page_title">Leave a message!</h1>
+  <div class="skinny_wrapper wrapper_padding">
+    <%= form_for Contact.new, url: {action: "create"} do |f| %>
+      <%= f.label :name %><br>
+      <%= f.text_field :name, required: true %>
+    
+    <br>
+      <%= f.label :email %><br>
+      <%= f.email_field :email, required: true %>
+    
+    <br>
+      
+      <%= f.label :message %><br>
+      <%= f.text_field :message, as: :text %>
+    
+    <div class="hidden">
+      <%= f.label :nickname %>
+      <%= f.text_field :nickname, hint: 'leave this field blank' %>
+    </div>
+
+    <%= f.submit "Send Message", class: "button" %>
+    <% end %>
+  </div>
+
+</div>
+
+

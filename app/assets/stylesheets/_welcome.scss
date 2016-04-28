@@ -40,3 +40,106 @@
     padding: 0 7.5% 0 0;
   }
 }
+
+#name {
+  // text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "bellaboo";
+  font-size: 4rem;
+  margin-top: 5px;
+}
+
+.about {
+  text-align: center;
+  font-family: bellaboo;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+#intro img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  // vertical-align: middle;
+  margin-right: auto;
+  // padding-top: 7rem;
+}
+
+#intro {
+  color: white;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+#large-header {
+  // background-image: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=76fba3bdb1e04cb26a02000be2fe7740");   
+  // background: #1D976C; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to left, #1D976C , #93F9B9); Chrome 10-25, Safari 5.1-6 
+  // background: linear-gradient(to left, #1D976C , #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=76fba3bdb1e04cb26a02000be2fe7740);
+  background-size: 100% 100%;
+  height: 750px;
+  // height: 750px;
+  // padding: 10rem 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#projects {
+  padding-top: 3.5rem;
+  text-align: center;
+}
+
+.project-text {
+  display: inline;
+  a {
+    font-family: 'Open Sans', sans-serif;
+    // clear: both;
+    text-decoration: none;
+    font-size: 2rem;
+    &:hover {
+      color: #8bc6db;
+    }
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+}
+.imac-img {
+  padding-top: 10px;
+  float: left;
+  img {
+    height: 360px;
+    width: 550px;
+  }
+}
+
+.red-hr {
+  width: 30em;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid red;
+  margin: auto;
+  margin-top: 40px;
+
+}
+
+.second-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1421987392252-38a07781c07e?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925);
+  background-size: 100% 100%;
+  height: 750px;
+  // height: 750px;
+  // padding: 10rem 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
