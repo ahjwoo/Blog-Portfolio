@@ -142,7 +142,7 @@ hr {
 #page_title {
   text-align: center;
   color: white;
-  padding-top: 3rem;
+  padding-top: 0.5rem;
   font-size: 2rem;
   text-transform: uppercase;
   font-family: bellaboo;
@@ -150,7 +150,7 @@ hr {
 
 #main_footer {
   padding: 2.5em 5%;
-  border-top: 1px solid $border;
+  border-top: 1px solid #E9E9E9;
   .copyright {
     float: left;
     font-size: .9em;
@@ -158,12 +158,19 @@ hr {
   }
   nav {
     float: right;
+    #resume {
+      text-decoration: none;
+      color: #424652;
+      &:hover {
+        color: #8bc6db;
+      }
+    }
     i {
-      color: $dark;
+      color: #424652;
       margin-left: 1em;
       padding-top: .2em;
       &:hover {
-        color: $highlight;
+        color: #8bc6db;
       }
     }
   }
@@ -181,9 +188,15 @@ textarea {
   margin: .5em 0 2em 0;
 }
 
-textarea {
-  min-height: 15em;
+label {
+  color: white;
+  font-family: bellaboo;
+  letter-spacing: 3px;
 }
+textarea {
+  min-height: 10em;
+}
+
 
 input[type="submit"], .button {
   outline: none;
@@ -191,8 +204,10 @@ input[type="submit"], .button {
   border: 2px solid $border;
   text-align: center;
   font-size: 1em;
-  color: $dark;
+  color: white;
   text-decoration: none;
+  font-family: bellaboo;
+  letter-spacing: 5px;
   padding: 1em 2em;
   &:hover {
     border: 2px solid $highlight;

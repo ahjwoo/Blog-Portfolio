@@ -1,17 +1,20 @@
 #posts_wrapper {
-  padding: 3em 0;
+  padding-top: 0.5rem;
   .post {
     text-align: center;
+    font-family: bellaboo;
     .date {
       font-size: .9em;
       margin: 0;
+      color: #717171;
     }
     h2 {
       margin-bottom: 0;
-      font-size: 2em;
+      font-size: 1.5em;
       text-transform: uppercase;
       a {
         text-decoration: none;
+        color: white;
         // color: $dark;
         &:hover {
           color: $highlight;

@@ -1,4 +1,18 @@
-<h1 id="page_title">Stuff I've Written</h1>
+<div id="large-header">
+  <header id="main_navigation" class="clearfix">
+      <%= link_to "Andrew Woo", root_path, class: "name" %>
+      <nav>
+
+        <a id="project_button" href="#">Projects</a>
+        <a id="contact_button" href="#">Contact</a>
+        <%= link_to "Blog", posts_path %>
+        <% if user_signed_in? %>
+          <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+        <% end %>
+      </nav>
+  </header>
+
+<h1 id="page_title">Blog posts</h1>
 
     <div id="posts_wrapper" class="skinny_wrapper">
       <% @posts.each do |post| %>
@@ -10,12 +24,11 @@
       <% end %>
       
     </div>
-    
-    <div id="admin_links" style="text-align:center;">
-      <% if user_signed_in? %>
-        <h2><%= link_to "Add a post", new_post_path %></h2>
-      <% end %>
-    </div>
 
-  
+    <% if user_signed_in? %>
+      <div id="admin_links" style="text-align:center;">
+        <h2><%= link_to "Add a post", new_post_path %></h2>
+      </div>
+    <% end %>
+
   <%= will_paginate @posts %>

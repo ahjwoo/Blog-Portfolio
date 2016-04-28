@@ -82,7 +82,7 @@
 </div>
 
 <div id="contact" class="second-header">
-  <h1 id="page_title">Leave a message!</h1>
+  <h1 id="page_title">Leave me a message!</h1>
   <div class="skinny_wrapper wrapper_padding">
     <%= form_for Contact.new, url: {action: "create"} do |f| %>
       <%= f.label :name %><br>
@@ -95,7 +95,7 @@
     <br>
       
       <%= f.label :message %><br>
-      <%= f.text_field :message, as: :text %>
+      <%= f.text_area :message, as: :text %>
     
     <div class="hidden">
       <%= f.label :nickname %>
