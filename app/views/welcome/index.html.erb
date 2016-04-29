@@ -1,3 +1,4 @@
+<!-- Navbar/Hero -->
 <div id="large-header">
   <header id="main_navigation" class="clearfix">
       <%= link_to "Andrew Woo", root_path, class: "name" %>
@@ -11,18 +12,22 @@
         <% end %>
       </nav>
   </header>
-  <div class="col-md-4"></div>
-  <div id="intro" class="col-xs-12 col-md-4">
-    <img id="profile" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b2/3d6/21687e5.jpg"/>
+  <div class="row-fluid">
+    <div class="col-md-3 col-xs-1"></div>
+    <div id="intro" class="col-xs-10 col-md-6">
+      <img id="profile" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b2/3d6/21687e5.jpg"/>
 
-    <p id="name">Hey, I'm Andrew!</p>
-      <div class="about">
-        <p class="text">I'm a Web Developer living in Vancouver BC. This page serves as my portfolio to display my projects as well as a space where you can read some of my blog posts!</p>
-      </div>
+      <p id="name">Hey, I'm Andrew!</p>
+   <!--    <p class="visible-xs" id="name-xs">Hey, I'm Andrew!</p> -->
+        <div class="about">
+          <p class="text">I'm a Web Developer living in Vancouver BC. This page serves as my portfolio to display my projects as well as a space where you can read some of my blog posts!</p>
+        </div>
+    </div>
+    <div class="col-md-3 col-xs-1"></div>
   </div>
-  <div class="col-md-4"></div>
 </div>
 
+<!-- Projects List -->
 <div id="project_start">
   <div id="projects">
     <div class="row">
@@ -32,13 +37,13 @@
             <%= image_tag("iphoneimac_dropin.png")%>
           </div>
 
-          <div class="project-text col-md-3 col-xs-12">
+          <div class="project-text col-md-4 col-xs-12">
             <h3><a href="#">Drop-in Pass</a></h3>
             <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
             <p><strong>Technologies used:</strong>Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers </p>
           </div>
         </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-2"></div>
     </div>  
   </div>
 

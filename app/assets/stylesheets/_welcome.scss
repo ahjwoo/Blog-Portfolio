@@ -46,9 +46,18 @@
   text-decoration: none;
   color: white;
   font-family: "bellaboo";
-  font-size: 4rem;
+  // font-size: 4em;
   margin-top: 5px;
 }
+
+// #name-xs {
+//   // text-align: center;
+//   text-decoration: none;
+//   color: white;
+//   font-family: "bellaboo";
+//   font-size: 3em;
+//   margin-top: 5px;
+// }
 
 .about {
   text-align: center;
@@ -117,10 +126,10 @@
 .imac-img {
   padding-top: 10px;
   float: left;
-  img {
-    height: 360px;
-    width: 550px;
-  }
+  // img {
+  //   height: 360px;
+  //   width: 550px;
+  // }
 }
 
 .red-hr {
@@ -142,4 +151,58 @@
   // padding: 10rem 0;
   background-repeat: no-repeat;
   position: relative;
+}
+
+// Name Media sizes
+@media (max-width: 480px) {
+    #name {
+    font-size:3em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #name {
+    font-size:3.3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #name {
+    font-size:3.5em;
+    }
+}
+
+@media (min-width: 980px) {
+  #name {
+  font-size:4em;
+  }
+}
+
+// Imac/Iphone Media sizes
+@media (max-width: 480px) {
+  .imac-img img {
+    height: 15em; 
+    width: 22em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .imac-img img {
+      height: 15em; 
+      width: 25em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .imac-img img {
+    height: 20em; 
+    width: 30em;
+    }
+}
+
+@media (min-width: 980px) {
+  .imac-img img {
+    height: 26em; 
+    width: 37em;
+  }
 }
