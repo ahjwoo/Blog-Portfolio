@@ -15,17 +15,15 @@
  */
 @import 'normalize';
 
-
 $dark: #424652;
 $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 $white: #FFFFFF;
 
-
-
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -117,9 +115,10 @@ hr {
   .name {
     font-weight: 700;
     font-size: .8em;
-    letter-spacing: 4px;
+    font-family: bellaboo;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    border: 2px solid $border;
+    // border: 2px solid $border;
     border-radius: 20px;
     padding: 1rem;
     text-decoration: none;
@@ -132,7 +131,7 @@ hr {
     a{
       color: white;
       text-decoration: none;
-      margin: 0 1rem;
+      margin: 0 0.5rem;
       font-size: 1rem;
       font-family: bellaboo;
       letter-spacing: 3px;
@@ -144,7 +143,8 @@ hr {
 #page_title {
   text-align: center;
   color: white;
-  padding-top: 0.5rem;
+  // padding-top: -5rem;
+  // margin-top: -5p
   font-size: 2rem;
   text-transform: uppercase;
   font-family: bellaboo;

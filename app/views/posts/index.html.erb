@@ -13,17 +13,19 @@
   </header>
 
 <h1 id="page_title">Blog posts</h1>
+<hr style="margin: 1em auto; width: 10em;">
 
     <div id="posts_wrapper" class="skinny_wrapper">
       <% @posts.each do |post| %>
         <div class="post">
-          <p class="date"><%= post.created_at.strftime('%A, %B %d') %></p>
           <h2><a href='#'><%= link_to post.title, post %></a></h2>
+          <br>
+          <p class="date"><%= post.created_at.strftime('%A, %B %d') %></p>
           <hr>
-      </div>
+        </div>
       <% end %>
       
-    </div>
+
 
     <% if user_signed_in? %>
       <div id="admin_links" style="text-align:center;">
@@ -32,3 +34,5 @@
     <% end %>
 
   <%= will_paginate @posts %>
+  </div>
+</div>

@@ -1,5 +1,6 @@
 #posts_wrapper {
-  padding-top: 0.5rem;
+  // padding-top: 0.5rem;
+  margin-top: -10px;
   .post {
     text-align: center;
     font-family: bellaboo;
@@ -22,7 +23,7 @@
       }
     }
     hr {
-      margin: 3em auto;
+      margin: 2em auto;
     }
   }
 }

@@ -28,4 +28,12 @@ $(document).ready(function() {
       scrollTop: $("#contact").offset().top}, 'slow');
   });
 
+  // $('.button').on('click',function() {
+  //   $('#contactModal').modal('show');
+  //   console.log("wooo");
+
+  // });
+
+
+
 });

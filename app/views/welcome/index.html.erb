@@ -20,7 +20,8 @@
       <p id="name">Hey, I'm Andrew!</p>
    <!--    <p class="visible-xs" id="name-xs">Hey, I'm Andrew!</p> -->
         <div class="about">
-          <p class="text">I'm a Web Developer living in Vancouver BC. This page serves as my portfolio to display my projects as well as a space where you can read some of my blog posts!</p>
+          <p class="text">I'm a Web Developer living in Vancouver BC. Feel free to browse my past projects as well as read my blog posts!</p>
+          <p class="text">I'm skilled in</p>
         </div>
     </div>
     <div class="col-md-3 col-xs-1"></div>
@@ -31,21 +32,21 @@
 <div id="project_start">
   <div id="projects">
     <div class="row">
-      <div class="col-md-2"></div>
-        <div class="wrapper">
-          <div class="imac-img col-md-4 col-xs-12">
-            <%= image_tag("iphoneimac_dropin.png")%>
+      <div class="col-md-2 col-xs-3"></div>
+        <!-- <div class="wrapper"> -->
+          <div class="imac-img">
+            <%= image_tag("iphoneimac_dropin.png", class: "col-md-4 col-sm-12 col-xs-12")%>
           </div>
 
           <div class="project-text col-md-4 col-xs-12">
-            <h3><a href="#">Drop-in Pass</a></h3>
+            <h3><a href="https://drop-in-pass.herokuapp.com/" target="_blank">Drop-in Pass</a></h3>
             <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
-            <p><strong>Technologies used:</strong>Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers </p>
+            <p><strong>Technologies used:</strong> Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers </p>
           </div>
         </div>
-      <div class="col-md-2"></div>
+      <div class="col-md-2 col-xs-1"></div>
     </div>  
-  </div>
+
 
 
     <hr class="red-hr">
@@ -53,16 +54,17 @@
 
   <div id="projects">
     <div class="row">
-      <div class="col-md-2"></div>
-        <div class="imac-img col-md-4 col-xs-12">
-          <%= image_tag("iphoneimac_rotten.png")%>
+      <div class="col-md-2 col-xs-3"></div>
+        <div class="imac-img">
+          <%= image_tag("iphoneimac_rotten.png", :class => "col-md-4 col-xs-12") %>
         </div>
 
-        <div class="project-text col-md-3 col-xs-12">
+        <div class="project-text col-md-4 col-xs-12">
           <h3><a href="#">Rotten Bananas</a></h3>
           <p>Rotten Bananas is a mock of RottenTomatoes where users can search, view, rate, and review movies.</p>
+          <p><strong>Technologies used:</strong>Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery</p>
         </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-2"></div>
     </div>  
   </div>
 
@@ -70,22 +72,25 @@
     <hr class="red-hr">
   </div>
 
+
   <div id="projects" style="padding-bottom: 5%;">
     <div class="row">
-      <div class="col-md-2"></div>
-        <div class="imac-img col-md-4 col-xs-12">
-          <%= image_tag("iphoneimac_roadlette.png")%>
+      <div class="col-md-2 col-xs-3"></div>
+        <div class="imac-img">
+          <%= image_tag("iphoneimac_roadlette.png", class: "col-md-4 col-sm-12 col-xs-12")%>
         </div>
 
-        <div class="project-text col-md-3 col-xs-12">
+        <div class="project-text col-md-4 col-sm-12 col-xs-12">
           <h3><a href="#">Roadlette</a></h3>
           <p>Roadlette was my midterm project at Lighthouse Labs, built alongside two others.  We created an app where, if given a dollar amount and number of days, calculates a random roadtrip destination.  The starting location is set at Lighthouse Labs.</p>
+          <p><strong>Technologies used:</strong>Ruby, Sinatra, Bootstrap, HTML5/CSS3, Javascript, jQuery, Google Maps API, Flickr API, Web Scraping</p>
         </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-2"></div>
     </div>  
   </div>
 </div>
 
+<!-- Contact Section -->
 <div id="contact" class="second-header">
   <h1 id="page_title">Leave me a message!</h1>
   <div class="skinny_wrapper wrapper_padding">
@@ -112,5 +117,24 @@
   </div>
 
 </div>
+
+<!-- Contacts Modal -->
+
+<div class="modal fade" style="display:none;" id="contactModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button id="close-login" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title">Thanks!</h3>
+      </div>
+      <div class="modal-body clearfix">
+        <h1>Thanks for the message!</h1>
+        <h2>I'll get back to you ASAP!</h2>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 
 
