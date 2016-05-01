@@ -1,5 +1,7 @@
 <div id="post_show_content" class="skinny_wrapper wrapper_padding">
   <header>
+  <%= link_to "Back", posts_path, class: "back" %>
+
     <p class="date"><%= @post.created_at.strftime('%A, %B, %d') %></p>
   <h1><%= @post.title %></h1>
   <hr>
