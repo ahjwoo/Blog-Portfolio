@@ -115,7 +115,7 @@ hr {
   .name {
     font-weight: 700;
     font-size: .8em;
-    font-family: bellaboo;
+    font-family: Bellaboo, Lobster;
     letter-spacing: 5px;
     text-transform: uppercase;
     // border: 2px solid $border;
@@ -136,7 +136,7 @@ hr {
       text-decoration: none;
       margin: 0 0.5rem;
       font-size: 1rem;
-      font-family: bellaboo;
+      font-family: bellaboo, Raleway;
       letter-spacing: 3px;
       &:hover {
         color: $highlight;
@@ -146,6 +146,7 @@ hr {
   }
 }
 
+//--------- Contact/Blog Title -------------//
 #page_title {
   text-align: center;
   color: white;
@@ -153,9 +154,10 @@ hr {
   // margin-top: -5p
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: bellaboo;
+  font-family: bellaboo, Lobster;
 }
 
+//-----------------Footer--------------//
 #main_footer {
   padding: 2.5em 5%;
   border-top: 1px solid #E9E9E9;
