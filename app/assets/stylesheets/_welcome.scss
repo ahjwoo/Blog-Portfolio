@@ -45,7 +45,7 @@
   // text-align: center;
   text-decoration: none;
   color: white;
-  font-family: Lobster;
+  font-family: bellaboo, Lobster;
   // font-size: 4em;
   margin-top: 5px;
   padding-bottom: 5px;
@@ -309,21 +309,21 @@
     }
 }
 
-@media (min-width: 1157px) and (max-width: 1220px) {
+@media (min-width: 1157px) and (max-width: 1244px) {
   .imac-img img {
-    height: 24em; 
-    width: 34em;
+    height: 23em; 
+    width: 33em;
   }
 }
 
-@media (min-width: 1221px) and (max-width: 1252px) {
+@media (min-width: 1245px) and (max-width: 1305px) {
   .imac-img img {
     height: 25em; 
     width: 36em;
   }
 }
 
-@media (min-width: 1253px) {
+@media (min-width: 1306px) {
   .imac-img img {
     height: 26em; 
     width: 37em;
