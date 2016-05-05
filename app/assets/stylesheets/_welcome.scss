@@ -204,6 +204,26 @@
   }
 }
 
+
+// Back to top button
+.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 30px;
+  bottom: 110px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Red_Arrow_Up.png") no-repeat center;
+  background-size: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+
+
 ////////// MEDIA QUERIES 
 // Name Media sizes
 @media (min-width: 300px) and (max-width: 350px) {

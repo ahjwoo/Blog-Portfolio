@@ -33,7 +33,32 @@ $(document).ready(function() {
   //   console.log("wooo");
 
   // });
+  
+  // Profile image shake on hover
+  $("#profile").on('mouseover', function(){
+    $('#profile').addClass('animated tada');
+  } )
 
+  $("#profile").on('mouseout', function(){
+    $("#profile").removeClass('animated tada');
+  })
 
+  var amountScrolled = 300;
+
+  $(window).scroll(function(){
+    if ($(window).scrollTop() > amountScrolled ) {
+      $('.back-to-top').fadeIn('slow');
+    }
+    else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });
+
+  $('.back-to-top').on('click', function(){
+    $('html,body').animate({
+      scrollTop: 0
+    }, 700);
+    return false;
+  })
 
 });
