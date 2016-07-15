@@ -118,6 +118,7 @@
   a {
     font-family: 'Lobster', cursive;
     // clear: both;
+    color: #EA2343;
     text-decoration: none;
     font-size: 2rem;
     &:hover {
@@ -136,10 +137,10 @@
   margin-right:-10px;
 
   // border: 1px solid #73AD21;
-  img {
-    height: 25em;
-    width: 36em;
-  }
+  // img {
+  //   height: 25em;
+  //   width: 36em;
+  // }
 }
 
 .red-hr {
@@ -222,131 +223,60 @@
   border-radius: 30px;
 }
 
-
-
-////////// MEDIA QUERIES 
-// Name Media sizes
-@media (min-width: 300px) and (max-width: 350px) {
-    #name {
-    font-size:2em;
-    }
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
-
-@media (min-width: 350px) and (max-width: 480px) {
-    #name {
-    font-size:2.5em;
+.imac-img {
+  display: flex;
+  width: 40%;
+  @media(max-width: 1001px) {
+    width: 100%;
+  }
+  img {
+    width: 95%;
+    height: 30%;
+    @media(max-width: 1001px) {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
     }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-    #name {
-    font-size:3.3em;
+    @media(max-width: 700px) {
+      width: 80%;
     }
+  }
 }
-
-@media (min-width: 768px) and (max-width: 979px) {
-    #name {
-    font-size:3.5em;
+.text-project {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 25px;
+  a {
+    font-family: 'Lobster', cursive;
+    // clear: both;
+    color: #EA2343;
+    text-decoration: none;
+    font-size: 2rem;
+    &:hover {
+      color: #8bc6db;
     }
-}
+  }
+  p {
+    font-family: Raleway;
 
-@media (min-width: 980px) {
-  #name {
-  font-size:4em;
+  }
+  @media (max-width: 1001px) {
+    width: 75%;
   }
 }
 
-// Imac/Iphone Media sizes
-@media (max-width: 319px) {
-  .imac-img img {
-    height: 11em; 
-    width: 18em;
-    padding-left: 30px;
-    }
+.title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+
 }
 
-@media (min-width: 320px) and (max-width: 350px) {
-  .imac-img img {
-    height: 11em; 
-    width: 18em;
-    }
-}
-
-@media (min-width: 350px) and (max-width: 479px) {
-  .imac-img img {
-      height: 17em; 
-      width: 25em;
-    }
-}
-
-@media (min-width: 480px) and (max-width: 518px) {
-  .imac-img img {
-      height: 17em; 
-      width: 25em;
-      left: 35px;
-    }
-  .imac-img {
-    left: 50px;
-  }
-}
-
-@media (min-width: 519px) and (max-width: 611px) {
-  .imac-img img {
-      height: 17em; 
-      width: 25em;
-      right: 17px;
-    }
-  .imac-img {
-    right: 40px;
-  }
-}
-
-@media (min-width: 612px) and (max-width: 1028px) {
-  .imac-img img {
-      height: 20em; 
-      width: 28em;
-    }
-}
-
-@media (min-width: 1029px) and (max-width: 1060px) {
-  .imac-img img {
-      height: 21em; 
-      width: 30em;
-    }
-}
-
-@media (min-width: 1061px) and (max-width: 1124px) {
-  .imac-img img {
-      height: 22em; 
-      width: 31em;
-    }
-}
-
-@media (min-width: 1125px) and (max-width: 1156px) {
-  .imac-img img {
-    height: 23em; 
-    width: 33em;
-    }
-}
-
-@media (min-width: 1157px) and (max-width: 1244px) {
-  .imac-img img {
-    height: 23em; 
-    width: 33em;
-  }
-}
-
-@media (min-width: 1245px) and (max-width: 1305px) {
-  .imac-img img {
-    height: 25em; 
-    width: 36em;
-  }
-}
-
-@media (min-width: 1306px) {
-  .imac-img img {
-    height: 26em; 
-    width: 37em;
-  }
-}
 

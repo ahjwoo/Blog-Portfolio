@@ -30,63 +30,60 @@
 
 <!-- Projects List -->
 <div id="project_start">
-  <div id="projects">
-    <div class="row">
-      <div class="col-md-1 col-lg-1 col-xs-3"></div>
-        <!-- <div class="wrapper"> -->
-          <div class="imac-img">
-            <%= image_tag("iphoneimac_dropin.png", class: "col-md-5 col-lg-5 col-xs-9")%>
-          </div>
-
-          <div class="project-text col-md-5 col-lg-5 col-xs-11">
-            <h3><a href="https://drop-in-pass.herokuapp.com/" target="_blank">Drop-in Pass</a></h3>
-            <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
-            <p><strong>Technologies used:</strong> Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers</p>
-          </div>
-      <div class="col-md-1 col-lg-1 col-xs-1"></div>
+  <!-- <div id="projects"> -->
+    <div class="flex-row">
+      <div class="imac-img device-left">
+        <%= image_tag("iphoneimac_dropin.png", :class => "device-left")%>
+      </div>
+      <div class="text-project">
+        <div>
+          <h3 class="title"><a href="https://drop-in-pass.herokuapp.com/" target="_blank">Drop-in Pass</a></h3>
+        </div>
+        <div>
+          <p>In a group of 3, we built Drop-in Pass as our final project at Lighthouse Labs.  Drop-in Pass allows users to try a variety of activities in their area for free once per month.  This allows customers to commit to activities that they actually enjoy.</p>
+          <p><strong>Technologies used:</strong> Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery, Twilio API, Google Maps API, Stripe API, Action Mailers</p>
+        </div>
+      </div>
     </div>  <!-- close row -->
-  </div>  
+  <!-- </div>   -->
 
   <hr class="red-hr">
 
-  <div id="projects">
-    <div class="row">
-      <div class="col-md-1 col-lg-1 col-xs-3"></div>
-        <div class="imac-img">
-          <%= image_tag("iphoneimac_rotten.png", :class => "col-md-5 col-lg-5 col-xs-12") %>
+  <!-- <div id="projects"> -->
+    <div class="flex-row">
+      <div class="imac-img">
+        <%= image_tag("iphoneimac_rotten.png")%>
+      </div>
+      <div class="text-project">
+        <div>
+          <h3 class="title"><a href="http://rotten-bananas.herokuapp.com/" target="_blank">Rotten Bananas</a></h3>
         </div>
-
-        <div class="project-text col-md-5 col-lg-5 col-xs-11">
-          <h3><a href="http://rotten-bananas.herokuapp.com/" target="_blank">Rotten Bananas</a></h3>
+        <div>
           <p>Rotten Bananas is a mock of RottenTomatoes where users can search, view, rate, and review movies.</p>
           <p><strong>Technologies used:</strong>Rails, Bootstrap, HTML5/CSS3, Javascript, jQuery</p>
         </div>
-      <div class="col-md-1 col-lg-1 col-xs-1"></div>
-    </div>  
-  </div>
+      </div>
+    </div>  <!-- close row -->
+  <!-- </div>   -->
 
-  <div class="container">
-    <hr class="red-hr">
-  </div>
+  <hr class="red-hr">
+
+  <div class="flex-row">
+    <div class="imac-img">
+      <%= image_tag("iphoneimac_roadlette.png")%>
+    </div>
+    <div class="text-project">
+      <div>
+        <h3 class="title"><a href="http://midterm-roadlette.herokuapp.com/" target="_blank">Roadlette</a></h3>
+      </div>
+      <div>
+        <p>Roadlette was my midterm project at Lighthouse Labs, built alongside two others.  We created an app where, if given a dollar amount and number of days, calculates a random roadtrip destination.  The starting location is set at Lighthouse Labs.</p>
+        <p><strong>Technologies used:</strong>Ruby, Sinatra, Bootstrap, HTML5/CSS3, Javascript, jQuery, Google Maps API, Flickr API, Web Scraping</p>
+      </div>
+    </div>
+  </div>  <!-- close row -->
 
 
-  <div id="projects" style="padding-bottom: 5%;">
-    <div class="row">
-      <div class="col-md-1 col-lg-1 col-xs-3"></div>
-        <div class="imac-img">
-          <%= image_tag("iphoneimac_roadlette.png", class: "col-md-5 col-lg-5 col-xs-12")%>
-        </div>
-
-        <!-- <div class="col-xs-1"></div> -->
-        <div class="project-text col-md-5 col-lg-5 col-xs-11">
-          <h3><a href="http://midterm-roadlette.herokuapp.com/" target="_blank">Roadlette</a></h3>
-          <p>Roadlette was my midterm project at Lighthouse Labs, built alongside two others.  We created an app where, if given a dollar amount and number of days, calculates a random roadtrip destination.  The starting location is set at Lighthouse Labs.</p>
-          <p><strong>Technologies used:</strong>Ruby, Sinatra, Bootstrap, HTML5/CSS3, Javascript, jQuery, Google Maps API, Flickr API, Web Scraping</p>
-        </div>
-      <div class="col-md-1 col-lg-1 col-xs-1"></div>
-     </div> <!-- Row Close -->
-  </div>
-</div> <!-- Project start close -->
 
 <!-- Contact Section -->
 <div id="contact" class="second-header">

@@ -1,0 +1,57 @@
+.device-right {
+  -skrollr-animation-name:animation1;
+}
+
+.device-left {
+  -skrollr-animation-name:animation2;
+}
+
+.feature-connect {
+  -skrollr-animation-name:animation3;
+}
+
+.feature-control {
+  -skrollr-animation-name:animation3;
+}
+
+.feature-style {
+  -skrollr-animation-name:animation3;
+}
+
+.feature-share {
+  -skrollr-animation-name:animation3;
+}
+
+.feature-notify {
+  -skrollr-animation-name:animation3;
+}
+
+@-skrollr-keyframes animation1 {
+  bottom-top {
+    right: -50vw;
+  }
+
+  -25p-bottom {
+    right: 0px;
+  }
+}
+
+@-skrollr-keyframes animation2 {
+  bottom-top {
+    left: -50vw;
+  }
+
+  -25p-bottom {
+    left: 0px;
+  }
+}
+
+@-skrollr-keyframes animation3 {
+  bottom-top {
+    opacity: 0;
+  }
+
+  -25p-bottom {
+    opacity: 1;
+  }
+}
