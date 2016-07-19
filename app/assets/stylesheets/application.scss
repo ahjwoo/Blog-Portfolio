@@ -238,6 +238,12 @@ input[type="submit"], .button {
   text-align: center;
 }
 
+#project_start {
+  background-image: url('confectionary.png');
+  background-repeat: repeat;
+
+}
+
 @import 'welcome';
 @import 'post_project';
 @import 'pygments';

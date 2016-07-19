@@ -47,8 +47,9 @@
   color: white;
   font-family: bellaboo, Lobster;
   // font-size: 4em;
-  margin-top: 5px;
+  margin-top: 20px;
   padding-bottom: 5px;
+  font-size: 35px;
 }
 
 // #name-xs {
@@ -60,13 +61,17 @@
 //   margin-top: 5px;
 // }
 
+.tech-used {
+  color: #EA2343;
+}
+
 .about {
   text-align: center;
   font-family: bellaboo, Raleway;
   letter-spacing: 2px;
   font-size: 20px;
   color: white;
-  margin-top: -50px;
+  // margin-top: -50px;
   p {
     color: white;
   }
