@@ -242,6 +242,27 @@ input[type="submit"], .button {
   background-image: url('confectionary.png');
   background-repeat: repeat;
 }
+
+@font-face {
+  font-family: 'BELLABOO-Regular';
+  src: url('BELLABOO-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bellaboo';
+  src: url('BELLABOO-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bellaboo';
+  src: url('BELLABOO-Regular.woff') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 @import 'welcome';
 @import 'post_project';
 @import 'pygments';
