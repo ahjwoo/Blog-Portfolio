@@ -263,9 +263,9 @@ input[type="submit"], .button {
   font-weight: normal;
   font-style: normal;
 }
+@import 'variables';
 @import 'welcome';
 @import 'post_project';
 @import 'pygments';
 @import '_bootstrap_grid';
 @import 'animate';
-@import 'variables';
