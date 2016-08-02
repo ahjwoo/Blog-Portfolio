@@ -115,7 +115,7 @@ hr {
   .name {
     font-weight: 700;
     font-size: .8em;
-    font-family: Bellaboo, Lobster;
+    font-family: "bellaboo", Lobster;
     letter-spacing: 5px;
     text-transform: uppercase;
     // border: 2px solid $border;
@@ -136,7 +136,7 @@ hr {
       text-decoration: none;
       margin: 0 0.5rem;
       font-size: 1rem;
-      font-family: bellaboo, Raleway;
+      font-family: "bellaboo", Raleway;
       letter-spacing: 3px;
       &:hover {
         color: $highlight;
@@ -154,7 +154,7 @@ hr {
   // margin-top: -5p
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: bellaboo, Lobster;
+  font-family: "bellaboo", Lobster;
 }
 
 //-----------------Footer--------------//
@@ -201,7 +201,7 @@ textarea {
 
 label {
   color: white;
-  font-family: bellaboo;
+  font-family: "bellaboo";
   letter-spacing: 3px;
 }
 textarea {
@@ -217,7 +217,7 @@ input[type="submit"], .button {
   font-size: 1em;
   color: white;
   text-decoration: none;
-  font-family: bellaboo;
+  font-family: "bellaboo";
   letter-spacing: 5px;
   padding: 1em 2em;
   &:hover {
@@ -268,3 +268,4 @@ input[type="submit"], .button {
 @import 'pygments';
 @import '_bootstrap_grid';
 @import 'animate';
+@import 'variables';

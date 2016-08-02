@@ -1,0 +1,150 @@
+extends ./layout
+
+block head
+
+block content
+  style.
+    input[type="text"],[type="submit"].phone-subscribe {
+      right: 0px;
+      height: 30px;
+      font-size: 14px;
+      padding-left: 8px;
+      border-radius: 4px;
+      margin-top: 7px;
+    }
+    input[type="submit"].phone-subscribe.go {
+      background-color: rgb(122, 205, 219);
+      color: white;
+      font-size: 16px;
+      height: 34px;
+    }
+    //- input[type="submit"].phone-subscribe.go.name, .phone-subscribe.go.location, .phone-subscribe.go.final {
+    //-   width: 100px;
+    //-   margin-left: 10px;
+    //- }
+
+    //- select.locale-select {
+    //-   height: 34px;
+    //-   width: 212px;
+    //-   border: 1px solid #dce4ec;
+    //-   background-color: white;
+    //- }
+    //- .subscribe-container {
+    //-   -webkit-backface-visibility: hidden;
+    //-   backface-visibility: hidden;
+    //-   perspective: 1300px;
+    //-   perspective-origin: 50% 0;
+    //-   position: relative;
+    //- }
+    //- .country-code {
+    //-   width: 40px;
+    //- }
+    //- .phone-subscribe.number {
+    //-   width: 150px;
+    //- }
+    //- .cube {
+    //-   transform-style: preserve-3d;
+    //-   position: relative;
+    //-   height: 50px;
+    //-   width: 550px;
+    //-   transform: rotateX(0deg);
+    //- }
+    //- .cube.rotate {
+    //-   transform: rotateX(90deg);
+    //-   transition: all 0.4s;
+    //- }
+    //- .cube.twice {
+    //-   transform: rotateX(180deg);
+    //-   transition: all 0.4s;    
+    //- }
+    //- .cube.third {
+    //-   transform: rotateX(270deg);
+    //-   transition: all 0.4s;    
+    //- }
+    //- .face {
+    //-   position: absolute;
+    //-   top: 0; left: 0;
+    //-   -webkit-backface-visibility: hidden;
+    //-   backface-visibility: hidden;
+    //-   height: 50px;
+    //-   width: 100%;
+    //-   background: inherit;
+    //- }
+    //- .face.name {
+    //-   transform: translate3d(0, 0,  25px);
+    //- }
+    //- .face.location {
+    //-   transform: translate3d(0px, 25px,  0px) rotateX(-90deg);
+    //- }
+    //- .face.number {
+    //-   transform: translate3d(0px, 0px,  -25px) rotateX(-180deg);
+    //- }
+    //- .face.final {
+    //-   transform:translate3d(0px, -25px,  0px) rotateX(-270deg);
+    //-   color: #8BCBDA;
+    //- }
+    //- input:disabled {
+    //-   opacity: 0.5;
+    //- }
+    .span {
+    display: block;
+    }
+
+    
+
+  form(action='/subscribe', method='post')
+    div(class='subscribe-container')
+      div(class="cube")
+          div(class="face name")
+            input(name="name", placeholder="Name", type="text", class="subscriber-name")
+            input(value="Go!", type="submit", class="phone-subscribe go name")
+        
+          div(class='face location')
+            select(name="locale", class="locale-select")
+              option - Select the Nearest Place -
+              option(value="1") Vancouver
+            input(value="Go!", type="submit", class="phone-subscribe go location")
+
+          div(class="face number")
+            input(name="country", value="+1", type="text", class="subscriber-name country-code")
+            input(name="number" placeholder="Phone Number", type="text", class="phone-subscribe number")
+            input(value="Go!", disabled="disabled" type="submit", class="phone-subscribe go final")
+          
+          div(class="face final")
+            p Sweet! You're In!
+
+
+block footer
+  script.
+    //- $(function() {
+    //-   $('.phone-subscribe.number').on("focusout", function() {
+    //-     //- var replaced = $(this).val($(this).val().replace(/\D/g,''));
+    //-     //- replaced.replace(/^(\d{3})(\d{3})(\d)+$/, "($1) $2-$3");
+    //-     var number = $(this).val($(this).val().replace(/\D/g,'').replace(/^(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3"));
+    //-     console.log($(this).val().match(/\d/g).length);
+    //-     if ($(this).val().match(/\d/g).length === 10) {
+    //-       $('.phone-subscribe.go.final').prop("disabled", false);
+    //-       }
+    //-     else {
+    //-       $('.phone-subscribe.go.final').prop("disabled", true);
+    //-       }
+    //-     //- var length = number.replace(/[^0-9]/g,"").length;
+    //-     //- var thing = $(this).val($(this).val().replace(/\D/g,''))
+    //-     //- $(thing).replace(/^(\d{3})(\d{3})(\d)+$/, "($1) $2-$3");
+        
+    //-   });
+    //-   $('.phone-subscribe.go.name').on('click', function(event) {
+    //-     $('.cube').addClass('rotate');
+    //-     return false;
+    //-   });
+
+    //-   $('.phone-subscribe.go.location').on('click', function(event) {
+    //-     $('.cube').addClass('twice');
+    //-     return false;
+    //-   });
+    //-   $('.phone-subscribe.go.final').on('click', function(event) {
+    //-     $('.cube').addClass('third');
+    //-     $.post('subscribe', $('form').serialize());
+    //-     return false;
+    //-   });
+    //- });
