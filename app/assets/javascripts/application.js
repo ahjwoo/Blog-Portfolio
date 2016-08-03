@@ -16,6 +16,7 @@
 //= require_tree .
 
 $(document).ready(function() {
+  $(window).css('font-family', 'bellaboo');
   //Smooth scroll to projects
   $("#project_button").on('click', function() {
     $('html,body').animate({
@@ -60,5 +61,4 @@ $(document).ready(function() {
     }, 700);
     return false;
   })
-
 });
