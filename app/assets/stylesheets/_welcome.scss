@@ -288,7 +288,49 @@
 .title {
   text-align: center;
   font-family: 'Lobster', cursive;
-
 }
+
+.flex-row.first {
+  position: absolute;
+  left: 100%;
+  height: 100vh;
+
+  img {
+    width: 34vw;
+    height: 100%;
+    min-height: 225px;
+    max-height: 305px;
+    min-width: 405px;
+    max-width: 480px;
+    @media(max-width: 1001px) {
+      width: 50%;
+      // margin-left: auto;
+      // margin-right: auto;
+    }
+    @media(max-width: 700px) {
+      width: 80%;
+    }
+  }
+}
+
+.red-hr.first {
+  position: absolute;
+  top: 550px;
+}
+.flex-row.second {
+  position: absolute;
+  top: 600px;
+}
+
+.flex-row.last {
+  position: absolute;
+  top: 1500px;
+}
+
+
+
+
+
+
 
 
