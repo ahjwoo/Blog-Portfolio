@@ -314,17 +314,21 @@
 }
 
 .red-hr.first {
-  position: absolute;
-  top: 550px;
+  position: relative;
+  top: 420px;
+}
+.red-hr.second {
+  position: relative;
+  top: 850px;
 }
 .flex-row.second {
   position: absolute;
-  top: 600px;
+  top: 500px;
 }
 
 .flex-row.last {
   position: absolute;
-  top: 1500px;
+  top: 1000px;
 }
 
 

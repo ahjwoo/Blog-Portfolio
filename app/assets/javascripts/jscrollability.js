@@ -180,8 +180,8 @@
         $.jScrollability([
           {
             'selector': '.flex-row.first',
-            'start': function($el) { return $el.offset().top + $el.height() },
-            'end': 'parent',
+            'start': function($el) { return $el.offset().top + 500 },
+            'end': function($el) { return $el.offset().top + $el.height() },
             'fn': {
               'left': {
                 'start': 100,
