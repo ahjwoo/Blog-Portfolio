@@ -179,7 +179,7 @@
     $(document).ready(function() {
         $.jScrollability([
           {
-            'selector': '.flex-row.first',
+            'selector': '.device-left.first',
             'start': function($el) { return $el.offset().top + 500 },
             'end': function($el) { return $el.offset().top + $el.height() },
             'fn': {
