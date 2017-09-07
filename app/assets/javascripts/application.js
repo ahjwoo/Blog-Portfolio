@@ -61,4 +61,30 @@ $(document).ready(function() {
     }, 700);
     return false;
   })
+
+
+// jscrollability
+  // $.jScrollability([
+  //   {
+  //     'selector': '.device-left',
+  //     'start': 'parent',
+  //     'end': 'parent',
+  //     'fn': {
+  //       'left': {
+  //         'start': 100,
+  //         'end': 0,
+  //         'unit': '%'
+  //       }
+  //     }
+  //   }
+  // ]);
+
+
+
+
+
+
+
+
+
 });
