@@ -17,32 +17,18 @@
 
 $(document).ready(function() {
   $(window).css('font-family', 'bellaboo');
+  
   //Smooth scroll to projects
-  $("#project_button").on('click', function() {
+  $(".project_button").on('click', function() {
     $('html,body').animate({
-      scrollTop: $("#project_start").offset().top}, 'slow');
+      scrollTop: $(".projects").offset().top}, 'slow');
   });
 
   //Smooth scroll to contact
-  $("#contact_button").on('click', function() {
+  $(".contact_button").on('click', function() {
     $('html,body').animate({
-      scrollTop: $("#contact").offset().top}, 'slow');
+      scrollTop: $(".contact-section").offset().top}, 'slow');
   });
-
-  // $('.button').on('click',function() {
-  //   $('#contactModal').modal('show');
-  //   console.log("wooo");
-
-  // });
-  
-  // Profile image shake on hover
-  $("#profile").on('mouseover', function(){
-    $('#profile').addClass('animated tada');
-  } )
-
-  $("#profile").on('mouseout', function(){
-    $("#profile").removeClass('animated tada');
-  })
 
   var amountScrolled = 300;
 
@@ -61,30 +47,4 @@ $(document).ready(function() {
     }, 700);
     return false;
   })
-
-
-// jscrollability
-  // $.jScrollability([
-  //   {
-  //     'selector': '.device-left',
-  //     'start': 'parent',
-  //     'end': 'parent',
-  //     'fn': {
-  //       'left': {
-  //         'start': 100,
-  //         'end': 0,
-  //         'unit': '%'
-  //       }
-  //     }
-  //   }
-  // ]);
-
-
-
-
-
-
-
-
-
 });
