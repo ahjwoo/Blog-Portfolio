@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1563px" height="715px" viewBox="0 0 1563 715" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">
+        <![CDATA[
+     
+            .clouds path {
+                -webkit-transform-origin: 50% 50%;
+                    -ms-transform-origin: 50% 50%;
+                        transform-origin: 50% 50%;
+                -webkit-animation: sway 5s ease infinite;
+                        animation: sway 5s ease infinite;
+            }
+            @-webkit-keyframes sway {
+                0% {-webkit-transform: translate(-50px);transform: translate(-50px);}
+                50% {-webkit-transform: translate(50px);transform: translate(50px);}
+                100% {-webkit-transform: translate(-50px);transform: translate(-50px);}
+            }
+            @keyframes sway {
+                0% {-webkit-transform: translate(-50px);transform: translate(-50px);}
+                50% {-webkit-transform: translate(50px);transform: translate(50px);}
+                100% {-webkit-transform: translate(-50px);transform: translate(-50px);}
+            }
+        ]]>
+
+    </style>
+
+    <defs>
+        <rect id="path-1" x="-68" y="-271" width="1681" height="1070"></rect>
+        <rect id="path-2" x="0" y="0" width="224.886582" height="90.6313471"></rect>
+        <rect id="path-3" x="5.02941238" y="12.9473353" width="91.2479103" height="43.8770807"></rect>
+        <rect id="path-4" x="11.4957997" y="182.701287" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-5" x="11.4957997" y="203.560883" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-6" x="39.5168115" y="182.701287" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-7" x="39.5168115" y="203.560883" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-8" x="67.5378234" y="182.701287" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-9" x="67.5378234" y="203.560883" width="20.836137" height="17.2631137"></rect>
+        <rect id="path-10" x="0" y="0" width="30.1764743" height="20.8595958"></rect>
+        <rect id="path-11" x="38" y="158" width="316" height="98" rx="8"></rect>
+        <rect id="path-12" x="38" y="175" width="315" height="32"></rect>
+        <rect id="path-13" x="52" y="175" width="302" height="32"></rect>
+        <path d="M17.188237,105.054256 C98.7913502,99.6847519 158.490769,97 196.286493,97 C234.075151,97 293.290259,99.6837481 373.931815,105.051244 L373.931815,105.051244 C378.340339,105.344675 381.676281,109.156362 381.38285,113.564886 C381.286795,115.008014 380.80131,116.398108 379.978049,117.587262 L354.385914,154.55368 L354.385914,154.55368 C352.891647,156.712065 350.433536,158 347.808376,158 L43.6586905,158 L43.6586905,158 C41.0518244,158 38.6084485,156.729844 37.1107564,154.596146 L11.1655689,117.633139 L11.1655688,117.633139 C8.6271874,114.016815 9.50103268,109.02744 13.1173569,106.489059 C14.3172272,105.646842 15.7254474,105.150508 17.188237,105.054256 Z" id="path-14"></path>
+        <rect id="path-15" x="200" y="206" width="104" height="50"></rect>
+        <rect id="path-16" x="45" y="206" width="57" height="50"></rect>
+        <polygon id="path-17" points="12.5 119 380.5 117 359.5 147.5 31.5 146.5"></polygon>
+        <rect id="path-18" x="187" y="0" width="8" height="158"></rect>
+        <polygon id="path-19" points="240.113517 0.454503334 248.113517 0.454503334 248.113517 158.454503 239.782466 159.923492"></polygon>
+        <rect id="path-20" x="296.17155" y="1.87503934" width="8" height="158"></rect>
+        <polygon id="path-21" points="353.142015 6.39674734 361.142015 6.39674734 361.186353 159.5327 353.458947 161.603253"></polygon>
+        <polygon id="path-22" points="134.762469 0.48750352 142.762469 0.48750352 142.762469 159.694924 134.736324 159.001969"></polygon>
+        <polygon id="path-23" points="77.7102188 2.86123403 85.7102188 2.86123403 85.7897812 161.240204 77.7102188 159.37489"></polygon>
+        <rect id="path-24" x="19.971554" y="6.38802741" width="8" height="155.381538"></rect>
+        <rect id="path-25" x="0" y="29.6137962" width="96.6554344" height="241.352439"></rect>
+        <polygon id="path-26" points="0 0 34.9259133 17.0279328 60.9172906 30.3541411 0 30.3541411"></polygon>
+        <rect id="path-27" x="0" y="53.3048332" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-28" x="0" y="82.1782846" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-29" x="0" y="111.051736" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-30" x="0" y="139.925187" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-31" x="0" y="168.798639" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-32" x="0" y="197.67209" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-33" x="0" y="226.545541" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-34" x="0" y="29.6137962" width="96.6554344" height="241.352439"></rect>
+        <polygon id="path-35" points="0 0 55.4157824 16.6126174 96.6554344 29.6137962 0 29.6137962"></polygon>
+        <rect id="path-36" x="0" y="53.3048332" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-37" x="0" y="82.1782846" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-38" x="0" y="111.051736" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-39" x="0" y="139.925187" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-40" x="0" y="168.798639" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-41" x="0" y="197.67209" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-42" x="0" y="226.545541" width="101.528818" height="5.18241434"></rect>
+        <rect id="path-43" x="0" y="0" width="101.528818" height="290.955548"></rect>
+        <rect id="path-44" x="8.12230541" y="19.9893125" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-45" x="8.12230541" y="51.0837985" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-46" x="8.12230541" y="82.1782846" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-47" x="8.12230541" y="114.013116" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-48" x="8.12230541" y="145.847946" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-49" x="8.12230541" y="179.163467" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-50" x="8.12230541" y="210.257953" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-51" x="8.12230541" y="242.092784" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-52" x="40.6115271" y="19.9893125" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-53" x="40.6115271" y="51.0837985" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-54" x="40.6115271" y="82.1782846" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-55" x="40.6115271" y="114.013116" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-56" x="40.6115271" y="145.847946" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-57" x="40.6115271" y="179.163467" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-58" x="40.6115271" y="210.257953" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-59" x="40.6115271" y="242.092784" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-60" x="73.1007487" y="19.9893125" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-61" x="73.1007487" y="51.0837985" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-62" x="73.1007487" y="82.1782846" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-63" x="73.1007487" y="114.013116" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-64" x="73.1007487" y="145.847946" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-65" x="73.1007487" y="179.163467" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-66" x="73.1007487" y="210.257953" width="21.1179941" height="18.5086226"></rect>
+        <rect id="path-67" x="73.1007487" y="242.092784" width="21.1179941" height="18.5086226"></rect>
+        <polygon id="path-68" points="65.9568046 58.6895122 61.3108136 122.651772 54.7151899 120.62598 59.0834093 56.8849524"></polygon>
+        <rect id="path-69" x="0" y="43" width="417" height="24"></rect>
+        <path d="M325.39265,52.4323394 L282.89265,102.932339 L282.89265,166.932339 L325.932339,218.432339 L317.39265,221.932339 L272.89265,168.932339 L272.89265,100.932339 C301.928793,66.4545055 317.595459,48.1211722 319.89265,45.9323394 C322.189841,43.7435066 324.023174,45.9101733 325.39265,52.4323394 Z" id="path-70"></path>
+        <path d="M147.821582,52.3249896 L105.321582,102.82499 L105.321582,166.82499 L148.361272,218.32499 L139.821582,221.82499 L95.3215824,168.82499 L95.3215824,100.82499 C124.357725,66.3471557 140.024392,48.0138224 142.321582,45.8249896 C144.618773,43.6361568 146.452107,45.8028235 147.821582,52.3249896 Z" id="path-71"></path>
+        <polygon id="path-72" points="38.5396892 67 38.5396892 160.319335 26 160.319335 26 67"></polygon>
+        <polygon id="path-73" points="368.571068 51.4375542 361.5 122.855339 354.428932 123.562446 360.7922 59.120472"></polygon>
+        <polygon id="path-74" points="192 51.3302044 184.928932 122.747989 177.857864 123.455096 184.221133 59.0131222"></polygon>
+        <polygon id="path-75" points="242.527872 58.796862 237.881881 122.759122 231.286258 120.73333 235.654477 56.9923022"></polygon>
+        <polygon id="path-76" points="392.539689 66 392.539689 159.319335 380 159.319335 380 66"></polygon>
+        <polygon id="path-77" points="215.539689 66 215.539689 159.319335 203 159.319335 203 66"></polygon>
+        <polygon id="path-78" points="281.680315 63.6813164 288.235056 65.193057 283.164497 110.453815 276.49785 114.149198"></polygon>
+        <polygon id="path-79" points="105.109247 63.5739666 111.663989 65.0857072 106.593429 110.346465 99.9267822 114.041848"></polygon>
+        <rect id="path-80" x="263" y="66" width="7" height="42"></rect>
+        <rect id="path-81" x="86.4289322" y="65.8926502" width="7" height="42"></rect>
+        <polygon id="path-82" points="311.680315 63.6813164 318.235056 65.193057 313.164497 110.453815 306.49785 114.149198"></polygon>
+        <polygon id="path-83" points="135.109247 63.5739666 141.663989 65.0857072 136.593429 110.346465 129.926782 114.041848"></polygon>
+        <rect id="path-84" x="325" y="66" width="7" height="42"></rect>
+        <rect id="path-85" x="148.428932" y="65.8926502" width="7" height="42"></rect>
+        <rect id="path-86" x="294" y="66" width="7" height="42"></rect>
+        <rect id="path-87" x="117.428932" y="65.8926502" width="7" height="42"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <g id="sky">
+                <use fill="#C9E7E0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="-67.5" y="-270.5" width="1680" height="1069"></rect>
+            </g>
+            <circle id="globe" fill="#7FE453" cx="781.5" cy="892.5" r="606.5"></circle>
+            <g id="scienceworld" transform="translate(202.242942, 494.838175) rotate(-52.000000) translate(-202.242942, -494.838175) translate(74.742942, 365.838175)">
+                <ellipse id="Oval-6" stroke="#000000" cx="112.443291" cy="109.692702" rx="109.569341" ry="109.692702"></ellipse>
+                <ellipse id="Oval" stroke="#000000" fill="#9CA5AD" cx="112.443291" cy="108.973405" rx="99.5105163" ry="99.6225522"></ellipse>
+                <path d="M3.95168115,121.920741 L164.892877,239.166055" id="Line-Copy-4" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M34.1281554,33.4472829 L208.720614,161.482043" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M21.9138682,49.9911002 L200.817251,179.464453" id="Line-Copy" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M52.80883,18.3420583 L217.342463,139.903151" id="Line-Copy-5" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M77.9558919,6.11401945 L221.653388,113.289184" id="Line-Copy-6" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M105.976904,0.359648203 L217.342463,78.7629564" id="Line-Copy-7" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M9.69958101,72.2892888 L185.729014,198.885456" id="Line-Copy-2" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M3.95168115,96.0260701 L172.077752,217.587163" id="Line-Copy-3" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M142.260522,4.31577843 L3.95168115,121.201444" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M112.443291,0.359648203 L3.95168115,96.0260701" id="Line-Copy-9" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M161.30044,11.8683907 L8.26260605,142.06104" id="Line-Copy-8" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M179.262627,23.3771332 L17.6029433,164.359229" id="Line-Copy-10" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M197.224814,41.3595433 L39.1575678,171.552193" id="Line-Copy-11" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M208.720614,58.6226571 L65.7416047,179.464453" id="Line-Copy-12" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M218.060951,80.9208456 L80.1113543,196.727567" id="Line-Copy-13" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M221.653388,108.254109 L98.0735414,213.271384" id="Line-Copy-14" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M216.623976,143.499633 L116.754216,226.21872" id="Line-Copy-15" stroke="#000000" stroke-linecap="square"></path>
+                <g id="scienceworld-base" transform="translate(0.000000, 166.876766)">
+                    <g id="Rectangle">
+                        <use fill="#A32219" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="223.886582" height="89.6313471"></rect>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill="#B1AAAA" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#979797" stroke-width="1" x="5.52941238" y="13.4473353" width="90.2479103" height="42.8770807"></rect>
+                    </g>
+                    <rect id="Rectangle-2-Copy" fill="#B1AAAA" x="128.609259" y="12.9473353" width="63.2268985" height="58.2630088"></rect>
+                    <rect id="Rectangle-2-Copy-2" fill="#CE2737" x="130.764722" y="15.1052245" width="10.0588248" height="17.2631137"></rect>
+                    <rect id="Rectangle-2-Copy-3" fill="#FF5136" x="180.340358" y="33.0876347" width="10.0588248" height="17.2631137"></rect>
+                    <rect id="Rectangle-2-Copy-4" fill="#CFD47B" x="155.193296" y="51.0700448" width="10.0588248" height="17.2631137"></rect>
+                </g>
+                <g id="Rectangle-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="11.9957997" y="183.201287" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="11.9957997" y="204.060883" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="Rectangle-3-Copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="1" x="40.0168115" y="183.201287" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#979797" stroke-width="1" x="40.0168115" y="204.060883" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#979797" stroke-width="1" x="68.0378234" y="183.201287" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="Rectangle-3-Copy-5">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="1" x="68.0378234" y="204.060883" width="19.836137" height="16.2631137"></rect>
+                </g>
+                <g id="flagpole" transform="translate(223.449607, 94.227829)">
+                    <path d="M0.718487483,20.4999476 L0.718487483,71.9296406" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+                    <g id="Group">
+                        <g id="flag">
+                            <g id="Rectangle-4">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <rect stroke="#000000" stroke-width="0.1" x="0.05" y="0.05" width="30.0764743" height="20.7595958"></rect>
+                            </g>
+                            <g id="Group-Copy" fill="#FF0000">
+                                <rect id="Rectangle-4" x="0" y="0" width="9.34033727" height="20.8595958"></rect>
+                                <rect id="Rectangle-4-Copy" x="20.836137" y="0" width="9.34033727" height="20.8595958"></rect>
+                            </g>
+                            <g id="Maple_Leaf" transform="translate(10.777312, 6.473668)" fill-rule="nonzero" fill="#FF0000">
+                                <path d="M4.31075515,0 L3.560427,1.30177243 C3.47528623,1.44325367 3.32273966,1.43013092 3.1701934,1.35110929 L2.62697555,1.08945534 L3.03184384,3.08895047 C3.11698461,3.45424715 2.84381507,3.45424715 2.70900496,3.29629913 L1.76098438,2.30908486 L1.60707508,2.8104157 C1.58932634,2.87625109 1.51128962,2.94539905 1.39421568,2.92893227 L0.195433385,2.69447886 L0.510301244,3.75931366 C0.577706147,3.99625156 0.630283265,4.09435199 0.442253294,4.15684307 L0.0149684892,4.34364778 L2.07859506,5.90287031 C2.16027482,5.96182579 2.20154234,6.06792099 2.17246396,6.1639827 L1.99185267,6.71531922 C2.70238979,6.63913237 3.33904215,6.52451058 4.04993941,6.45391865 C4.11269689,6.44768666 4.21776072,6.54402598 4.21732963,6.61167706 L4.12318471,8.63155687 L4.46865146,8.63155687 L4.41427064,6.61600898 C4.41383655,6.5483579 4.5091523,6.44768666 4.57191008,6.45391865 C5.28280705,6.52451086 5.9194603,6.63913237 6.62999712,6.71531922 L6.44938643,6.1639827 C6.42030805,6.06792099 6.46157527,5.96182579 6.54325503,5.90287031 L8.6068813,4.34364778 L8.1795968,4.15684307 C7.99156623,4.09435199 8.04414364,3.99625156 8.11154855,3.75931366 L8.4264173,2.69447886 L7.22763381,2.92893227 C7.11056017,2.94539905 7.03252345,2.87625109 7.01477411,2.8104157 L6.86086511,2.30908486 L5.91284483,3.29629913 C5.77803442,3.45424715 5.50486428,3.45424715 5.59000535,3.08895047 L5.99487305,1.08945534 L5.45165639,1.35110929 C5.29910623,1.43013092 5.14656356,1.44325367 5.06142249,1.30177243" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path d="M361.048065,451.043845 L397.998386,412.504263 L397.998386,412.504263 C398.312555,412.176581 398.654046,411.876235 399.01916,411.606476 C453.316805,371.489556 490.473931,361.097586 510.490538,380.430565 C530.225041,399.491076 606.642473,521.636363 739.742833,746.866427 L739.742834,746.866427 C741.990665,750.670167 740.729351,755.575934 736.925611,757.823766 C735.692946,758.552213 734.28737,758.936486 732.855553,758.936486 L355,758.936486 L355,758.936485 C350.581722,758.936485 347,755.354764 347,750.936486 C347,749.932825 347.188861,748.938126 347.556725,748.00431 C385.604881,651.419729 401.095032,580.38248 394.027177,534.892564 C387.992865,496.0547 377.565327,472.2448 362.744565,463.462863 L362.744565,463.462863 C358.943475,461.210555 357.68794,456.303305 359.940249,452.502215 C360.252476,451.975287 360.624183,451.485958 361.048065,451.043845 Z" id="water" fill="#0BC5F2"></path>
+            <path d="M1124.35671,770.603476 L1171.56396,729.877728 L1171.56396,729.877728 C1171.89327,729.593624 1172.24521,729.336849 1172.61627,729.109956 C1242.24472,686.534099 1289.88739,675.494523 1315.54429,695.991229 C1322.2433,701.342912 1340.02048,712.48893 1356.91811,733.181662 C1358.90297,735.612316 1364.1467,740.896033 1370.8423,750 C1375.22176,755.954714 1454.71159,867.407161 1609.31181,1084.35734 L1609.31181,1084.35734 C1611.87588,1087.9555 1611.03759,1092.95097 1607.43943,1095.51504 C1606.08403,1096.48091 1604.46112,1097 1602.79677,1097 L1114,1097 L1114,1097 C1109.58172,1097 1106,1093.41828 1106,1089 C1106,1087.80949 1106.26571,1086.63398 1106.77775,1085.55921 C1155.56205,983.160472 1175.42556,907.852825 1166.3683,859.636268 C1158.61225,818.346772 1145.18991,793.089267 1126.10127,783.863751 L1126.10127,783.863751 C1122.12323,781.941166 1120.45694,777.15776 1122.37953,773.179714 C1122.85553,772.194824 1123.52845,771.318016 1124.35671,770.603476 Z" id="water-copy" fill="#0BC5F2"></path>
+            <g id="bc-place" transform="translate(1248.567063, 460.567063) rotate(45.000000) translate(-1248.567063, -460.567063) translate(1057.567063, 332.567063)">
+                <g id="Rectangle-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <rect stroke="#979797" stroke-width="1" x="38.5" y="158.5" width="315" height="97" rx="8"></rect>
+                </g>
+                <g id="Rectangle-6-Copy-2">
+                    <use fill="#99DEBD" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <rect stroke="#979797" stroke-width="1" x="38.5" y="175.5" width="314" height="31"></rect>
+                </g>
+                <g id="Rectangle-6-Copy-3">
+                    <use fill="#99DEBD" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    <rect stroke="#979797" stroke-width="1" x="52.5" y="175.5" width="301" height="31"></rect>
+                </g>
+                <path d="M38.5,191.5 L353.5,191.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <g id="Rectangle-6-Copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    <path stroke="#979797" stroke-width="1" d="M17.2210661,105.553177 C15.8497009,105.643413 14.5294945,106.108727 13.404616,106.898305 C10.0143121,109.278037 9.19508212,113.955576 11.5748148,117.34588 L37.5200023,154.308887 C38.9240886,156.309229 41.2147536,157.5 43.6586905,157.5 L347.808376,157.5 C350.269463,157.5 352.573943,156.292561 353.974818,154.269075 L379.566953,117.302657 C380.33876,116.187825 380.793902,114.884612 380.883954,113.531679 C381.159045,109.398689 378.0316,105.825232 373.898609,105.55014 C293.267242,100.183322 234.061527,97.5 196.286493,97.5 C158.504279,97.5 98.8140922,100.184337 17.2210661,105.553177 Z"></path>
+                </g>
+                <path d="M7.77215775,7.86393373 C25.286323,34.1036377 44.5128109,64.9699348 76.5,76" id="Path-2" stroke="#979797"></path>
+                <path d="M68.9735506,4.02113354 C88.1728958,27.1360215 104.426861,47.9634306 131.5,61.5" id="Path-3" stroke="#979797"></path>
+                <path d="M253.138455,3.78343455 C241.090316,34.6316084 231.418589,62.3414381 195,68.5" id="Path-6" stroke="#979797"></path>
+                <path d="M313.346388,5.53265526 C299.226406,30.474112 281.690941,57.7322648 250.5,62.5" id="Path-7" stroke="#979797"></path>
+                <path d="M372.755896,10.9174514 C354.763984,33.3394972 338.505162,57.0021464 308.5,61.5" id="Path-8" stroke="#979797"></path>
+                <path d="M68.5,175.5 L68.5,206.5" id="Line-Copy-16" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M86.5,175.5 L86.5,206.5" id="Line-Copy-17" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M104.5,175.5 L104.5,206.5" id="Line-Copy-18" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M122.5,175.5 L122.5,206.5" id="Line-Copy-19" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M140.5,175.5 L140.5,206.5" id="Line-Copy-20" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M158.5,175.5 L158.5,206.5" id="Line-Copy-21" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M176.5,175.5 L176.5,206.5" id="Line-Copy-22" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M194.5,175.5 L194.5,206.5" id="Line-Copy-23" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M212.5,175.5 L212.5,206.5" id="Line-Copy-24" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M230.5,175.5 L230.5,206.5" id="Line-Copy-25" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M248.5,175.5 L248.5,206.5" id="Line-Copy-26" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M266.5,175.5 L266.5,206.5" id="Line-Copy-27" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M284.5,175.5 L284.5,206.5" id="Line-Copy-28" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M302.5,175.5 L302.5,206.5" id="Line-Copy-29" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M320.5,175.5 L320.5,206.5" id="Line-Copy-30" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M338.5,175.5 L338.5,206.5" id="Line-Copy-31" stroke="#979797" stroke-linecap="square"></path>
+                <g id="Rectangle-8">
+                    <use fill="#C7BFBF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    <rect stroke="#979797" stroke-width="1" x="200.5" y="206.5" width="103" height="49"></rect>
+                </g>
+                <g id="Rectangle-8-Copy">
+                    <use fill="#C7BFBF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                    <rect stroke="#979797" stroke-width="1" x="45.5" y="206.5" width="56" height="49"></rect>
+                </g>
+                <g id="Rectangle-9">
+                    <use fill="#00C3FF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    <path stroke="#979797" stroke-width="1" d="M13.4496264,119.494846 L31.76283,146.000799 L359.237759,146.999198 L379.545104,117.505197 L13.4496264,119.494846 Z"></path>
+                </g>
+                <path d="M19.5,127.5 L372.5,127.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M26.5,137.5 L365.5,137.5" id="Line-Copy-50" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M25.5,119.5 L25.5,136.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M61.5,119.5 L61.5,145.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M79.5,119.5 L79.5,145.5" id="Line-Copy-33" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M97.5,119.5 L97.5,145.5" id="Line-Copy-34" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M115.5,119.5 L115.5,145.5" id="Line-Copy-35" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M133.5,119.5 L133.5,145.5" id="Line-Copy-36" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M151.5,119.5 L151.5,145.5" id="Line-Copy-37" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M169.5,119.5 L169.5,145.5" id="Line-Copy-38" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M187.5,119.5 L187.5,145.5" id="Line-Copy-39" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M205.5,119.5 L205.5,145.5" id="Line-Copy-40" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M223.5,119.5 L223.5,145.5" id="Line-Copy-41" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M241.5,119.5 L241.5,145.5" id="Line-Copy-42" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M259.5,119.5 L259.5,145.5" id="Line-Copy-43" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M277.5,119.5 L277.5,145.5" id="Line-Copy-44" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M295.5,118.5 L295.5,146.5" id="Line-Copy-45" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M313.5,118.5 L313.5,146.5" id="Line-Copy-46" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M331.5,118.5 L331.5,146.5" id="Line-Copy-47" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M349.5,118.5 L349.5,146.5" id="Line-Copy-48" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M367.5,117.5 L367.5,134.5" id="Line-Copy-49" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M43.5,119.5 L43.5,145.5" id="Line-Copy-32" stroke="#979797" stroke-linecap="square"></path>
+                <g id="pillars">
+                    <g id="Rectangle-7">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-18"></use>
+                        <rect stroke="#979797" stroke-width="1" x="187.5" y="0.5" width="7" height="157"></rect>
+                    </g>
+                    <g id="Rectangle-7-Copy-4" transform="translate(243.947992, 80.188998) rotate(10.000000) translate(-243.947992, -80.188998) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-19"></use>
+                        <path stroke="#979797" stroke-width="1" d="M240.612481,0.954503334 L240.283705,159.327397 L247.613517,158.034954 L247.613517,0.954503334 L240.612481,0.954503334 Z"></path>
+                    </g>
+                    <g id="Rectangle-7-Copy-5" transform="translate(300.171550, 80.875039) rotate(13.000000) translate(-300.171550, -80.875039) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-20"></use>
+                        <rect stroke="#979797" stroke-width="1" x="296.67155" y="2.37503934" width="7" height="157"></rect>
+                    </g>
+                    <g id="Rectangle-7-Copy-6" transform="translate(357.164184, 84.000000) rotate(15.000000) translate(-357.164184, -84.000000) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-21"></use>
+                        <path stroke="#979797" stroke-width="1" d="M353.643037,6.89674734 L353.957618,160.951996 L360.686242,159.149067 L360.642159,6.89674734 L353.643037,6.89674734 Z"></path>
+                    </g>
+                    <g id="Rectangle-7-Copy" transform="translate(138.749396, 80.091214) rotate(-10.000000) translate(-138.749396, -80.091214) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-22"></use>
+                        <path stroke="#979797" stroke-width="1" d="M135.262386,0.98750352 L135.236399,158.543284 L142.262469,159.149896 L142.262469,0.98750352 L135.262386,0.98750352 Z"></path>
+                    </g>
+                    <g id="Rectangle-7-Copy-2" transform="translate(81.750000, 82.050719) rotate(-13.000000) translate(-81.750000, -82.050719) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-23"></use>
+                        <path stroke="#979797" stroke-width="1" d="M78.2102188,3.36123403 L78.2102188,158.977172 L85.2894653,160.611545 L85.2104699,3.36123403 L78.2102188,3.36123403 Z"></path>
+                    </g>
+                    <g id="Rectangle-7-Copy-3" transform="translate(23.971554, 84.078797) rotate(-15.000000) translate(-23.971554, -84.078797) ">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
+                        <rect stroke="#979797" stroke-width="1" x="20.471554" y="6.88802741" width="7" height="154.381538"></rect>
+                    </g>
+                </g>
+                <path d="M129.001686,1.11084473 C142.568247,22.9953449 160.781065,61.214786 187,69" id="Path-5" stroke="#979797"></path>
+            </g>
+            <g id="skyrise1" transform="translate(834.926707, 137.033764)">
+                <g id="Rectangle-5">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="30.1137962" width="95.6554344" height="240.352439"></rect>
+                </g>
+                <g id="Rectangle-10">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-26"></use>
+                    <path stroke="#979797" stroke-width="1" d="M0.5,0.800031916 L0.5,29.8541411 L58.8462022,29.8541411 L34.706796,17.4773632 L0.5,0.800031916 Z"></path>
+                </g>
+                <g id="Rectangle-11">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-27"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="53.8048332" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-28"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="82.6782846" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-29"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="111.551736" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-30"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="140.425187" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-31"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="169.298639" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-5">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-32"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="198.17209" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-33"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="227.045541" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="skyrise-windows" transform="translate(0.000000, 34.055866)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy" transform="translate(0.000000, 62.929317)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-2" transform="translate(0.000000, 91.802768)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-3" transform="translate(0.000000, 120.676220)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-4" transform="translate(0.000000, 149.549671)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-5" transform="translate(0.000000, 178.423122)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-6" transform="translate(0.000000, 207.296574)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-7" transform="translate(0.000000, 236.170025)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="skyrise1-copy" transform="translate(668.764409, 259.632743) scale(-1, 1) translate(-668.764409, -259.632743) translate(618.000000, 124.149626)">
+                <g id="Rectangle-5">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-34"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="30.1137962" width="95.6554344" height="240.352439"></rect>
+                </g>
+                <g id="Rectangle-10">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-35"></use>
+                    <path stroke="#979797" stroke-width="1" d="M0.5,0.671874589 L0.5,29.1137962 L93.4065055,29.1137962 L55.2722045,17.0915594 L0.5,0.671874589 Z"></path>
+                </g>
+                <g id="Rectangle-11">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-36"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="53.8048332" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-37"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="82.6782846" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-38"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="111.551736" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-39"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="140.425187" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-40"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="169.298639" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-5">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-41"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="198.17209" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="Rectangle-11-Copy-6">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-42"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="227.045541" width="100.528818" height="4.18241434"></rect>
+                </g>
+                <g id="skyrise-windows" transform="translate(0.000000, 34.055866)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy" transform="translate(0.000000, 62.929317)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-2" transform="translate(0.000000, 91.802768)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-3" transform="translate(0.000000, 120.676220)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-4" transform="translate(0.000000, 149.549671)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-5" transform="translate(0.000000, 178.423122)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-6" transform="translate(0.000000, 207.296574)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="skyrise-windows-copy-7" transform="translate(0.000000, 236.170025)">
+                    <rect id="Rectangle-12" fill="#59AFCA" x="0" y="0" width="96.6554344" height="19.2489676"></rect>
+                    <path d="M17.4629566,0.370172453 L17.4629566,18.8787951" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M35.3320285,0.370172453 L35.3320285,18.8787951" id="Line-Copy-51" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M53.2011004,0.370172453 L53.2011004,18.8787951" id="Line-Copy-52" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M71.0701724,0.370172453 L71.0701724,18.8787951" id="Line-Copy-53" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M88.9392443,0.370172453 L88.9392443,18.8787951" id="Line-Copy-54" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M0.406115271,9.99465623 L96.2493191,9.99465623" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="skyrise2" transform="translate(726.651123, 114.977899)">
+                <g id="Rectangle-13">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="100.528818" height="289.955548"></rect>
+                </g>
+                <g id="Rectangle-14">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-44"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="20.4893125" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-3">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-45"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="51.5837985" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-6">
+                    <use fill="#59AECA" fill-rule="evenodd" xlink:href="#path-46"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="82.6782846" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-9">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-47"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="114.513116" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-12">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-48"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="146.347946" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-15">
+                    <use fill="#59AECA" fill-rule="evenodd" xlink:href="#path-49"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="179.663467" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-18">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-50"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="210.757953" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-21">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-51"></use>
+                    <rect stroke="#979797" stroke-width="1" x="8.62230541" y="242.592784" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy">
+                    <use fill="#59AECA" fill-rule="evenodd" xlink:href="#path-52"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="20.4893125" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-4">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-53"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="51.5837985" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-7">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-54"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="82.6782846" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-10">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-55"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="114.513116" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-13">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-56"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="146.347946" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-16">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-57"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="179.663467" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-19">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-58"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="210.757953" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-22">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-59"></use>
+                    <rect stroke="#979797" stroke-width="1" x="41.1115271" y="242.592784" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-2">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-60"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="20.4893125" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-5">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-61"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="51.5837985" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-8">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-62"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="82.6782846" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-11">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-63"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="114.513116" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-14">
+                    <use fill="#59AECA" fill-rule="evenodd" xlink:href="#path-64"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="146.347946" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-17">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-65"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="179.663467" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-20">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-66"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="210.757953" width="20.1179941" height="17.5086226"></rect>
+                </g>
+                <g id="Rectangle-14-Copy-23">
+                    <use fill="#EFF094" fill-rule="evenodd" xlink:href="#path-67"></use>
+                    <rect stroke="#979797" stroke-width="1" x="73.6007487" y="242.592784" width="20.1179941" height="17.5086226"></rect>
+                </g>
+            </g>
+            <g id="granville-bridge" transform="translate(508.753756, 609.125497) rotate(-9.000000) translate(-508.753756, -609.125497) translate(300.253756, 528.625497)">
+                <g id="Rectangle-15-Copy-9" transform="translate(60.335997, 89.768362) rotate(-54.000000) translate(-60.335997, -89.768362) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-68"></use>
+                    <path stroke="#979797" stroke-width="1" d="M65.4280223,59.0676293 L59.5409237,57.5220145 L55.2411373,120.264468 L60.8576,121.989519 L65.4280223,59.0676293 Z"></path>
+                </g>
+                <g id="Rectangle-15">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-69"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="43.5" width="416" height="23"></rect>
+                </g>
+                <g id="Rectangle-15-Copy-4" transform="translate(299.412495, 133.519845) rotate(90.000000) translate(-299.412495, -133.519845) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-70"></use>
+                    <path stroke="#979797" stroke-width="1" d="M324.852768,52.2973302 C324.195411,49.244481 323.436101,47.2163454 322.60885,46.2386859 C321.887289,45.3859321 321.186984,45.3896903 320.237563,46.2943271 C317.965111,48.4595884 302.313211,66.7749735 273.39265,101.114835 L273.39265,168.750267 L317.540828,221.331243 L325.110591,218.228769 L282.39265,167.113763 L282.39265,102.749942 L324.852776,52.2973222 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-7" transform="translate(121.841427, 133.412495) rotate(90.000000) translate(-121.841427, -133.412495) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-71"></use>
+                    <path stroke="#979797" stroke-width="1" d="M147.2817,52.1899804 C146.624343,49.1371312 145.865033,47.1089956 145.037782,46.1313361 C144.316221,45.2785823 143.615916,45.2823405 142.666495,46.1869773 C140.394043,48.3522386 124.742143,66.6676237 95.8215824,101.007485 L95.8215824,168.642918 L139.96976,221.223894 L147.539524,218.121419 L104.821582,167.006413 L104.821582,102.642592 L147.281708,52.1899724 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-2">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-72"></use>
+                    <path stroke="#979797" stroke-width="1" d="M38.0396892,67.5 L26.5,67.5 L26.5,159.819335 L38.0396892,159.819335 L38.0396892,67.5 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-5" transform="translate(361.500000, 87.500000) rotate(45.000000) translate(-361.500000, -87.500000) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-73"></use>
+                    <path stroke="#979797" stroke-width="1" d="M367.937042,52.7665184 L361.272035,59.3493151 L354.986488,123.004197 L361.04278,122.398567 L367.937042,52.7665184 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-8" transform="translate(184.928932, 87.392650) rotate(45.000000) translate(-184.928932, -87.392650) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-74"></use>
+                    <path stroke="#979797" stroke-width="1" d="M191.365975,52.6591686 L184.700967,59.2419653 L178.41542,122.896847 L184.471712,122.291217 L191.365975,52.6591686 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-6" transform="translate(236.907065, 89.875712) rotate(-54.000000) translate(-236.907065, -89.875712) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-75"></use>
+                    <path stroke="#979797" stroke-width="1" d="M241.99909,59.1749791 L236.111991,57.6293643 L231.812205,120.371818 L237.428668,122.096868 L241.99909,59.1749791 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy-3">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-76"></use>
+                    <path stroke="#979797" stroke-width="1" d="M392.039689,66.5 L380.5,66.5 L380.5,158.819335 L392.039689,158.819335 L392.039689,66.5 Z"></path>
+                </g>
+                <g id="Rectangle-15-Copy">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-77"></use>
+                    <path stroke="#979797" stroke-width="1" d="M215.039689,66.5 L203.5,66.5 L203.5,158.819335 L215.039689,158.819335 L215.039689,66.5 Z"></path>
+                </g>
+                <g id="Rectangle-16-Copy-3" transform="translate(282.366453, 88.915257) rotate(29.000000) translate(-282.366453, -88.915257) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-78"></use>
+                    <path stroke="#979797" stroke-width="1" d="M282.119842,64.2958117 L277.093064,113.247588 L282.696342,110.141641 L287.688563,65.5801432 L282.119842,64.2958117 Z"></path>
+                </g>
+                <g id="Rectangle-16-Copy-5" transform="translate(105.795385, 88.807907) rotate(29.000000) translate(-105.795385, -88.807907) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-79"></use>
+                    <path stroke="#979797" stroke-width="1" d="M105.548774,64.1884619 L100.521996,113.140238 L106.125274,110.034291 L111.117495,65.4727934 L105.548774,64.1884619 Z"></path>
+                </g>
+                <g id="Rectangle-16">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-80"></use>
+                    <rect stroke="#979797" stroke-width="1" x="263.5" y="66.5" width="6" height="41"></rect>
+                </g>
+                <g id="Rectangle-16-Copy-6">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-81"></use>
+                    <rect stroke="#979797" stroke-width="1" x="86.9289322" y="66.3926502" width="6" height="41"></rect>
+                </g>
+                <g id="Rectangle-16-Copy-4" transform="translate(312.366453, 88.915257) scale(-1, 1) rotate(29.000000) translate(-312.366453, -88.915257) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-82"></use>
+                    <path stroke="#979797" stroke-width="1" d="M312.119842,64.2958117 L307.093064,113.247588 L312.696342,110.141641 L317.688563,65.5801432 L312.119842,64.2958117 Z"></path>
+                </g>
+                <g id="Rectangle-16-Copy-7" transform="translate(135.795385, 88.807907) scale(-1, 1) rotate(29.000000) translate(-135.795385, -88.807907) ">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-83"></use>
+                    <path stroke="#979797" stroke-width="1" d="M135.548774,64.1884619 L130.521996,113.140238 L136.125274,110.034291 L141.117495,65.4727934 L135.548774,64.1884619 Z"></path>
+                </g>
+                <g id="Rectangle-16-Copy">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-84"></use>
+                    <rect stroke="#979797" stroke-width="1" x="325.5" y="66.5" width="6" height="41"></rect>
+                </g>
+                <g id="Rectangle-16-Copy-8">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-85"></use>
+                    <rect stroke="#979797" stroke-width="1" x="148.928932" y="66.3926502" width="6" height="41"></rect>
+                </g>
+                <g id="Rectangle-16-Copy-2">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-86"></use>
+                    <rect stroke="#979797" stroke-width="1" x="294.5" y="66.5" width="6" height="41"></rect>
+                </g>
+                <g id="Rectangle-16-Copy-9">
+                    <use fill="#BAB4B4" fill-rule="evenodd" xlink:href="#path-87"></use>
+                    <rect stroke="#979797" stroke-width="1" x="117.928932" y="66.3926502" width="6" height="41"></rect>
+                </g>
+                <g id="railings" transform="translate(0.000000, 35.000000)" stroke="#979797" stroke-linecap="square">
+                    <path d="M1.51452785,0.535714286 L1.51452785,14.4642857" id="Line"></path>
+                    <path d="M404.378935,2.67857143 L404.378935,13.3928571" id="Line-Copy-168"></path>
+                    <path d="M407.40799,2.67857143 L407.40799,13.3928571" id="Line-Copy-169"></path>
+                    <path d="M410.437046,2.67857143 L410.437046,13.3928571" id="Line-Copy-170"></path>
+                    <path d="M413.466102,2.67857143 L413.466102,13.3928571" id="Line-Copy-171"></path>
+                    <path d="M400.340194,2.67857143 L400.340194,13.3928571" id="Line-Copy-167"></path>
+                    <path d="M396.301453,2.67857143 L396.301453,13.3928571" id="Line-Copy-166"></path>
+                    <path d="M392.262712,2.67857143 L392.262712,13.3928571" id="Line-Copy-165"></path>
+                    <path d="M388.223971,2.67857143 L388.223971,13.3928571" id="Line-Copy-164"></path>
+                    <path d="M384.18523,2.67857143 L384.18523,13.3928571" id="Line-Copy-163"></path>
+                    <path d="M380.146489,2.67857143 L380.146489,13.3928571" id="Line-Copy-162"></path>
+                    <path d="M376.107748,2.67857143 L376.107748,13.3928571" id="Line-Copy-161"></path>
+                    <path d="M372.069007,2.67857143 L372.069007,13.3928571" id="Line-Copy-160"></path>
+                    <path d="M368.030266,2.67857143 L368.030266,13.3928571" id="Line-Copy-159"></path>
+                    <path d="M363.991525,2.67857143 L363.991525,13.3928571" id="Line-Copy-158"></path>
+                    <path d="M359.952785,2.67857143 L359.952785,13.3928571" id="Line-Copy-157"></path>
+                    <path d="M355.914044,2.67857143 L355.914044,13.3928571" id="Line-Copy-156"></path>
+                    <path d="M351.875303,2.67857143 L351.875303,13.3928571" id="Line-Copy-155"></path>
+                    <path d="M347.836562,2.67857143 L347.836562,13.3928571" id="Line-Copy-154"></path>
+                    <path d="M343.797821,2.67857143 L343.797821,13.3928571" id="Line-Copy-153"></path>
+                    <path d="M339.75908,2.67857143 L339.75908,13.3928571" id="Line-Copy-152"></path>
+                    <path d="M335.720339,2.67857143 L335.720339,13.3928571" id="Line-Copy-151"></path>
+                    <path d="M331.681598,2.67857143 L331.681598,13.3928571" id="Line-Copy-150"></path>
+                    <path d="M327.642857,2.67857143 L327.642857,13.3928571" id="Line-Copy-149"></path>
+                    <path d="M323.604116,2.67857143 L323.604116,13.3928571" id="Line-Copy-148"></path>
+                    <path d="M319.565375,2.67857143 L319.565375,13.3928571" id="Line-Copy-147"></path>
+                    <path d="M315.526634,2.67857143 L315.526634,13.3928571" id="Line-Copy-146"></path>
+                    <path d="M311.487893,2.67857143 L311.487893,13.3928571" id="Line-Copy-145"></path>
+                    <path d="M307.449153,2.67857143 L307.449153,13.3928571" id="Line-Copy-144"></path>
+                    <path d="M303.410412,2.67857143 L303.410412,13.3928571" id="Line-Copy-143"></path>
+                    <path d="M299.371671,2.67857143 L299.371671,13.3928571" id="Line-Copy-142"></path>
+                    <path d="M295.33293,2.67857143 L295.33293,13.3928571" id="Line-Copy-141"></path>
+                    <path d="M291.294189,2.67857143 L291.294189,13.3928571" id="Line-Copy-140"></path>
+                    <path d="M287.255448,2.67857143 L287.255448,13.3928571" id="Line-Copy-139"></path>
+                    <path d="M283.216707,2.67857143 L283.216707,13.3928571" id="Line-Copy-138"></path>
+                    <path d="M279.177966,2.67857143 L279.177966,13.3928571" id="Line-Copy-137"></path>
+                    <path d="M275.139225,2.67857143 L275.139225,13.3928571" id="Line-Copy-136"></path>
+                    <path d="M271.100484,2.67857143 L271.100484,13.3928571" id="Line-Copy-135"></path>
+                    <path d="M267.061743,2.67857143 L267.061743,13.3928571" id="Line-Copy-134"></path>
+                    <path d="M263.023002,2.67857143 L263.023002,13.3928571" id="Line-Copy-133"></path>
+                    <path d="M258.984262,2.67857143 L258.984262,13.3928571" id="Line-Copy-132"></path>
+                    <path d="M254.945521,2.67857143 L254.945521,13.3928571" id="Line-Copy-131"></path>
+                    <path d="M250.90678,2.67857143 L250.90678,13.3928571" id="Line-Copy-130"></path>
+                    <path d="M246.868039,2.67857143 L246.868039,13.3928571" id="Line-Copy-129"></path>
+                    <path d="M242.829298,2.67857143 L242.829298,13.3928571" id="Line-Copy-128"></path>
+                    <path d="M238.790557,2.67857143 L238.790557,13.3928571" id="Line-Copy-127"></path>
+                    <path d="M234.751816,2.67857143 L234.751816,13.3928571" id="Line-Copy-126"></path>
+                    <path d="M230.713075,2.67857143 L230.713075,13.3928571" id="Line-Copy-125"></path>
+                    <path d="M226.674334,2.67857143 L226.674334,13.3928571" id="Line-Copy-124"></path>
+                    <path d="M222.635593,2.67857143 L222.635593,13.3928571" id="Line-Copy-123"></path>
+                    <path d="M218.596852,2.67857143 L218.596852,13.3928571" id="Line-Copy-122"></path>
+                    <path d="M214.558111,2.67857143 L214.558111,13.3928571" id="Line-Copy-121"></path>
+                    <path d="M210.51937,2.67857143 L210.51937,13.3928571" id="Line-Copy-120"></path>
+                    <path d="M206.48063,2.67857143 L206.48063,13.3928571" id="Line-Copy-119"></path>
+                    <path d="M202.441889,2.67857143 L202.441889,13.3928571" id="Line-Copy-118"></path>
+                    <path d="M198.403148,2.67857143 L198.403148,13.3928571" id="Line-Copy-117"></path>
+                    <path d="M194.364407,2.67857143 L194.364407,13.3928571" id="Line-Copy-116"></path>
+                    <path d="M190.325666,2.67857143 L190.325666,13.3928571" id="Line-Copy-115"></path>
+                    <path d="M186.286925,2.67857143 L186.286925,13.3928571" id="Line-Copy-114"></path>
+                    <path d="M182.248184,2.67857143 L182.248184,13.3928571" id="Line-Copy-113"></path>
+                    <path d="M178.209443,2.67857143 L178.209443,13.3928571" id="Line-Copy-112"></path>
+                    <path d="M174.170702,2.67857143 L174.170702,13.3928571" id="Line-Copy-111"></path>
+                    <path d="M170.131961,2.67857143 L170.131961,13.3928571" id="Line-Copy-110"></path>
+                    <path d="M166.09322,2.67857143 L166.09322,13.3928571" id="Line-Copy-109"></path>
+                    <path d="M162.054479,2.67857143 L162.054479,13.3928571" id="Line-Copy-108"></path>
+                    <path d="M158.015738,2.67857143 L158.015738,13.3928571" id="Line-Copy-107"></path>
+                    <path d="M153.976998,2.67857143 L153.976998,13.3928571" id="Line-Copy-106"></path>
+                    <path d="M149.938257,2.67857143 L149.938257,13.3928571" id="Line-Copy-105"></path>
+                    <path d="M145.899516,2.67857143 L145.899516,13.3928571" id="Line-Copy-104"></path>
+                    <path d="M141.860775,2.67857143 L141.860775,13.3928571" id="Line-Copy-103"></path>
+                    <path d="M137.822034,2.67857143 L137.822034,13.3928571" id="Line-Copy-102"></path>
+                    <path d="M133.783293,2.67857143 L133.783293,13.3928571" id="Line-Copy-101"></path>
+                    <path d="M129.744552,2.67857143 L129.744552,13.3928571" id="Line-Copy-100"></path>
+                    <path d="M125.705811,2.67857143 L125.705811,13.3928571" id="Line-Copy-99"></path>
+                    <path d="M121.66707,2.67857143 L121.66707,13.3928571" id="Line-Copy-98"></path>
+                    <path d="M117.628329,2.67857143 L117.628329,13.3928571" id="Line-Copy-97"></path>
+                    <path d="M113.589588,2.67857143 L113.589588,13.3928571" id="Line-Copy-96"></path>
+                    <path d="M109.550847,2.67857143 L109.550847,13.3928571" id="Line-Copy-95"></path>
+                    <path d="M105.512107,2.67857143 L105.512107,13.3928571" id="Line-Copy-94"></path>
+                    <path d="M101.473366,2.67857143 L101.473366,13.3928571" id="Line-Copy-93"></path>
+                    <path d="M97.4346247,2.67857143 L97.4346247,13.3928571" id="Line-Copy-92"></path>
+                    <path d="M93.3958838,2.67857143 L93.3958838,13.3928571" id="Line-Copy-91"></path>
+                    <path d="M89.3571429,2.67857143 L89.3571429,13.3928571" id="Line-Copy-90"></path>
+                    <path d="M85.3184019,2.67857143 L85.3184019,13.3928571" id="Line-Copy-89"></path>
+                    <path d="M81.279661,2.67857143 L81.279661,13.3928571" id="Line-Copy-88"></path>
+                    <path d="M77.2409201,2.67857143 L77.2409201,13.3928571" id="Line-Copy-87"></path>
+                    <path d="M73.2021792,2.67857143 L73.2021792,13.3928571" id="Line-Copy-86"></path>
+                    <path d="M69.1634383,2.67857143 L69.1634383,13.3928571" id="Line-Copy-85"></path>
+                    <path d="M65.1246973,2.67857143 L65.1246973,13.3928571" id="Line-Copy-84"></path>
+                    <path d="M61.0859564,2.67857143 L61.0859564,13.3928571" id="Line-Copy-83"></path>
+                    <path d="M57.0472155,2.67857143 L57.0472155,13.3928571" id="Line-Copy-82"></path>
+                    <path d="M53.0084746,2.67857143 L53.0084746,13.3928571" id="Line-Copy-81"></path>
+                    <path d="M48.9697337,2.67857143 L48.9697337,13.3928571" id="Line-Copy-80"></path>
+                    <path d="M44.9309927,2.67857143 L44.9309927,13.3928571" id="Line-Copy-79"></path>
+                    <path d="M40.8922518,2.67857143 L40.8922518,13.3928571" id="Line-Copy-78"></path>
+                    <path d="M36.8535109,2.67857143 L36.8535109,13.3928571" id="Line-Copy-77"></path>
+                    <path d="M32.81477,2.67857143 L32.81477,13.3928571" id="Line-Copy-76"></path>
+                    <path d="M28.7760291,2.67857143 L28.7760291,13.3928571" id="Line-Copy-75"></path>
+                    <path d="M24.7372881,2.67857143 L24.7372881,13.3928571" id="Line-Copy-74"></path>
+                    <path d="M20.6985472,2.67857143 L20.6985472,13.3928571" id="Line-Copy-73"></path>
+                    <path d="M16.6598063,2.67857143 L16.6598063,13.3928571" id="Line-Copy-72"></path>
+                    <path d="M12.6210654,2.67857143 L12.6210654,13.3928571" id="Line-Copy-71"></path>
+                    <path d="M8.58232446,2.67857143 L8.58232446,13.3928571" id="Line-Copy-70"></path>
+                    <path d="M4.54358354,2.67857143 L4.54358354,13.3928571" id="Line-Copy-69"></path>
+                    <path d="M34.8341404,0.535714286 L34.8341404,14.4642857" id="Line-Copy-57"></path>
+                    <path d="M68.153753,0.535714286 L68.153753,14.4642857" id="Line-Copy-58"></path>
+                    <path d="M101.473366,0.535714286 L101.473366,14.4642857" id="Line-Copy-59"></path>
+                    <path d="M134.792978,0.535714286 L134.792978,14.4642857" id="Line-Copy-60"></path>
+                    <path d="M168.112591,0.535714286 L168.112591,14.4642857" id="Line-Copy-61"></path>
+                    <path d="M201.432203,0.535714286 L201.432203,14.4642857" id="Line-Copy-62"></path>
+                    <path d="M234.751816,0.535714286 L234.751816,14.4642857" id="Line-Copy-63"></path>
+                    <path d="M268.071429,0.535714286 L268.071429,14.4642857" id="Line-Copy-64"></path>
+                    <path d="M301.391041,0.535714286 L301.391041,14.4642857" id="Line-Copy-65"></path>
+                    <path d="M334.710654,0.535714286 L334.710654,14.4642857" id="Line-Copy-66"></path>
+                    <path d="M368.030266,0.535714286 L368.030266,14.4642857" id="Line-Copy-67"></path>
+                    <path d="M401.349879,0.535714286 L401.349879,14.4642857" id="Line-Copy-68"></path>
+                    <path d="M415.485472,0.535714286 L415.485472,14.4642857" id="Line-Copy-55"></path>
+                    <path d="M1.51452785,2.67857143 L415.485472,2.67857143" id="Line"></path>
+                    <path d="M1.51452785,13.3928571 L415.485472,13.3928571" id="Line-Copy-56"></path>
+                </g>
+                <path d="M46.5,1.5 L46.5,50.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M124.5,1.5 L124.5,50.5" id="Line-Copy-172" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M280.5,0.5 L280.5,49.5" id="Line-Copy-173" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M358.5,0.5 L358.5,49.5" id="Line-Copy-175" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M202.5,2.5 L202.5,51.5" id="Line-Copy-174" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="tree" transform="translate(782.000000, 497.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="25" y="92.7373272" width="9" height="36.2626728"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="29 0 58 98.6820276 0 98.6820276"></polygon>
+            </g>
+            <g id="tree-copy-3" transform="translate(957.657697, 582.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="25" y="92.7373272" width="9" height="36.2626728"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="29 0 58 98.6820276 0 98.6820276"></polygon>
+            </g>
+            <g id="tree-copy" transform="translate(811.000000, 477.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="25" y="107.115207" width="9" height="41.8847926"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="29 0 58 113.981567 0 113.981567"></polygon>
+            </g>
+            <g id="tree-copy-4" transform="translate(1023.000000, 572.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="25" y="107.115207" width="9" height="41.8847926"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="29 0 58 113.981567 0 113.981567"></polygon>
+            </g>
+            <g id="tree-copy-2" transform="translate(853.000000, 544.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="13.7931034" y="58.9493088" width="4.96551724" height="23.0506912"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="16 0 32 62.7281106 0 62.7281106"></polygon>
+            </g>
+            <g id="tree-copy-5" transform="translate(1007.000000, 621.000000)">
+                <rect id="Rectangle-17" fill="#8B572A" x="13.7931034" y="58.9493088" width="4.96551724" height="23.0506912"></rect>
+                <polygon id="Triangle" stroke="#243F03" fill="#417505" points="16 0 32 62.7281106 0 62.7281106"></polygon>
+            </g>
+            <g class="clouds">
+                <path d="M73.1054203,99.026129 C97.6054203,103.538133 123.925659,73.6560308 145.176049,71.526129 C155.543917,70.4869697 163.707786,66.4025715 200.676049,71.526129 C223.583072,74.7008914 235.277719,82.5817006 235.759989,95.1685566 L235.759989,95.1685566 C235.822577,96.8020539 237.181434,98.0847567 238.815824,98.0531334 C277.459498,97.3054271 302.74624,97.629759 314.676049,99.026129 C333.050954,101.17689 382.611093,117.79048 361.176049,122.526129 C332.790219,128.797417 242.511509,128.799667 90.33992,122.532879 L90.33992,122.532879 C90.2308169,122.528386 90.1215498,122.529853 90.0126067,122.537273 C61.8391196,124.456293 46.7033908,124.452578 44.6054203,122.526129 C41.4523846,119.630872 50.5656804,94.8751331 73.1054203,99.026129 Z" id="cloud2" fill="#FFFFFF"></path>
+                <path d="M1121.10542,188.026129 C1145.60542,192.538133 1171.92566,162.656031 1193.17605,160.526129 C1203.54392,159.48697 1211.70779,155.402572 1248.67605,160.526129 C1271.58307,163.700891 1283.27772,171.581701 1283.75999,184.168557 L1283.75999,184.168557 C1283.82258,185.802054 1285.18143,187.084757 1286.81582,187.053133 C1325.4595,186.305427 1350.74624,186.629759 1362.67605,188.026129 C1381.05095,190.17689 1430.61109,206.79048 1409.17605,211.526129 C1380.79022,217.797417 1290.51151,217.799667 1138.33992,211.532879 L1138.33992,211.532879 C1138.23082,211.528386 1138.12155,211.529853 1138.01261,211.537273 C1109.83912,213.456293 1094.70339,213.452578 1092.60542,211.526129 C1089.45238,208.630872 1098.56568,183.875133 1121.10542,188.026129 Z" id="cloud1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

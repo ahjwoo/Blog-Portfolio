@@ -108,21 +108,21 @@ hr {
   margin: 2rem 0;
 }
 
-#main_navigation {
+.main_navigation {
   padding: 2.5em 5%;
   // border-bottom: 1px solid $border;
   background: transparent;
   .name {
     font-weight: 700;
     font-size: .8em;
-    font-family: "bellaboo", Lobster;
+    // font-family: "bellaboo", Lobster;
     letter-spacing: 5px;
     text-transform: uppercase;
     // border: 2px solid $border;
     border-radius: 20px;
     padding: 1rem;
     text-decoration: none;
-    color: white;
+    color: #45b29a;
     float: left;
     &:hover {
       color: $highlight;
@@ -132,11 +132,11 @@ hr {
     float: right;
     padding-top: 1.5rem;
     a{
-      color: white;
+      color: #45b29a;
       text-decoration: none;
       margin: 0 0.5rem;
       font-size: 1rem;
-      font-family: "bellaboo", Raleway;
+      // font-family: "bellaboo", Raleway;
       letter-spacing: 3px;
       &:hover {
         color: $highlight;
@@ -144,12 +144,15 @@ hr {
 
     }
   }
+  @media(max-width: 450px){
+    display: none;
+  }
 }
 
 //--------- Contact/Blog Title -------------//
 #page_title {
   text-align: center;
-  color: white;
+  color: #45b29a;
   // padding-top: -5rem;
   // margin-top: -5p
   font-size: 2rem;
@@ -158,20 +161,24 @@ hr {
 }
 
 //-----------------Footer--------------//
-#main_footer {
+.main_footer {
   padding: 2.5em 5%;
   border-top: 1px solid #E9E9E9;
+  background: #C9E7E0;
+  margin-top: 50px;
   .copyright {
     float: left;
     font-size: .9em;
+    color: #45b29a;
     margin: 0;
     font-family: Raleway;
   }
   nav {
     float: right;
-    #resume {
+    a {
       text-decoration: none;
-      color: #424652;
+      color: #45b29a;
+      margin: 0 10px;
       &:hover {
         color: #8bc6db;
       }
@@ -238,12 +245,12 @@ input[type="submit"], .button {
   text-align: center;
 }
 
-#project_start {
-  background-image: url('confectionary.png');
-  background-repeat: repeat;
-  position: relative;
-  height: auto;
-}
+// #project_start {
+//   // background-image: url('confectionary.png');
+//   background: 
+//   position: relative;
+//   height: auto;
+// }
 
 @font-face {
   font-family: 'BELLABOO-Regular', Raleway;

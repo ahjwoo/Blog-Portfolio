@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="221px" viewBox="0 0 189 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>me</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+
+    <style type="text/css">
+        <![CDATA[
+     
+            .hand g{
+                -webkit-transform-origin: 50% 50%;
+                    -ms-transform-origin: 50% 50%;
+                        transform-origin: 50% 50%;
+                -webkit-animation: rotate 1.5s ease infinite;
+                        animation: rotate 1.5s ease infinite;
+            }
+            @-webkit-keyframes rotate {
+                0% {-webkit-transform: scale(1,1);transform: scale(1,1);}
+                50% {-webkit-transform: scale(1,1.05);transform: scale(1,1.05);}
+                100% {-webkit-transform: scale(1,1);transform: scale(1,1);}
+            }
+            @keyframes rotate {
+                0% {-webkit-transform: scale(1,1);transform: scale(1,1);}
+                50% {-webkit-transform: scale(1,1.05);transform: scale(1,1.05);}
+                100% {-webkit-transform: scale(1,1);transform: scale(1,1);}
+            }
+        ]]>
+
+    </style>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="me">
+            <g id="body" transform="translate(19.000000, 131.000000)">
+                <rect fill="#2A60A1" x="0" y="0" width="90" height="90" rx="8"></rect>
+                <rect id="collar" fill="#FFFFFF" x="18" y="1" width="54" height="9"></rect>
+                <g id="buttons" transform="translate(43.000000, 38.000000)" fill="#D8D8D8">
+                    <circle id="Oval-5" cx="3.5" cy="3.5" r="3.5"></circle>
+                    <circle id="Oval-5-Copy" cx="3.5" cy="17.5" r="3.5"></circle>
+                    <circle cx="3.5" cy="31.5" r="3.5"></circle>
+                </g>
+            </g>
+            <g id="face">
+                <ellipse fill="#F1BDA4" cx="64" cy="75" rx="60" ry="65"></ellipse>
+                <path d="M80.5,39.9695012 C115.293939,39.9695012 126,104.003078 126,67 C126,29.9969218 97.7939392,0 63,0 C28.2060608,0 0,29.9969218 0,67 C0,104.003078 45.7060608,39.9695012 80.5,39.9695012 Z" id="hair" fill="#181717"></path>
+                <g id="glasses" transform="translate(22.000000, 58.000000)" stroke="#000000">
+                    <ellipse id="Oval-2" cx="17.3355263" cy="17" rx="17.3355263" ry="17"></ellipse>
+                    <ellipse id="Oval-2-Copy" cx="67.6644737" cy="17" rx="17.3355263" ry="17"></ellipse>
+                    <path d="M35.2302632,16.4516129 L49.7697368,16.4516129" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <path d="M79,76.5454545 C83.4709016,73.5151515 86.8042349,72 89,72 C91.1957651,72 94.5290984,73.5151515 99,76.5454545" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M60,99.5454545 C62.1236782,96.5151515 63.7070116,95 64.75,95 C65.7929884,95 67.3763218,96.5151515 69.5,99.5454545" id="Line-Copy-4" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M45.0667686,119.347855 C53.9936129,114.014522 60.6491268,111.347855 65.0333104,111.347855 C69.4174939,111.347855 76.0730078,114.014522 84.9998521,119.347855" id="Line-Copy-5" stroke="#191717" stroke-width="2" stroke-linecap="round" transform="translate(65.033310, 115.347855) rotate(179.000000) translate(-65.033310, -115.347855) "></path>
+                <polyline id="Line-Copy-2" stroke="#191818" stroke-width="3" stroke-linecap="round" points="77 63 89.5 63 102 63"></polyline>
+                <polyline id="Line-Copy-3" stroke="#191818" stroke-width="3" stroke-linecap="round" points="27 63 39.5 63 52 63"></polyline>
+                <path d="M29,76.5454545 C33.4709016,73.5151515 36.8042349,72 39,72 C41.1957651,72 44.5290984,73.5151515 49,76.5454545" id="Line-Copy" stroke="#000000" stroke-linecap="square"></path>
+            </g>
+            <path d="M64.4082688,6.02204461 C46.6281095,5.57963077 38.3457171,11.8339266 23,21.3942361" id="Path-4" stroke="#000000"></path>
+            <path d="M65.4082688,14.0220446 C47.6281095,13.5796308 39.3457171,19.8339266 24,29.3942361" id="Path-4-Copy-2" stroke="#000000"></path>
+            <path d="M126.596683,22.4048569 C108.816524,21.962443 100.534132,28.2167389 85.1884144,37.7770484" id="Path-4-Copy" stroke="#000000" transform="translate(105.892549, 30.079930) rotate(68.000000) translate(-105.892549, -30.079930) "></path>
+            <path d="M125.596683,28.4048569 C107.816524,27.962443 99.5341315,34.2167389 84.1884144,43.7770484" id="Path-4-Copy-3" stroke="#000000" transform="translate(104.892549, 36.079930) rotate(68.000000) translate(-104.892549, -36.079930) "></path>
+            <g class="arm" transform="translate(99.000000, 78.000000)">
+                <rect fill="#2A60A1" transform="translate(33.478342, 53.541932) rotate(53.000000) translate(-33.478342, -53.541932) " x="20.9783419" y="21.0419321" width="25" height="65" rx="8"></rect>
+
+                <g class="hand" transform="translate(72.967338, 22.174321) rotate(20.000000) translate(-72.967338, -22.174321) translate(53.467338, 5.674321)" fill="#F1BDA4">
+                    <g>
+                        <circle id="Oval-3" cx="16" cy="24" r="9"></circle>
+                        <ellipse id="Oval-4" cx="13.5" cy="7.5" rx="2.5" ry="6.5"></ellipse>
+                        <ellipse id="Oval-4-Copy-3" transform="translate(5.085351, 12.134931) rotate(335.000000) translate(-5.085351, -12.134931) " cx="5.08535085" cy="12.1349307" rx="2.5" ry="4.5"></ellipse>
+                        <ellipse id="Oval-4-Copy" transform="translate(22.500000, 7.500000) rotate(22.000000) translate(-22.500000, -7.500000) " cx="22.5" cy="7.5" rx="2.5" ry="6.5"></ellipse>
+                        <ellipse id="Oval-4-Copy-2" transform="translate(29.261374, 12.458795) rotate(43.000000) translate(-29.261374, -12.458795) " cx="29.2613736" cy="12.458795" rx="2.5" ry="6.5"></ellipse>
+                        <ellipse id="Oval-4-Copy-4" transform="translate(32.020640, 20.442233) rotate(67.000000) translate(-32.020640, -20.442233) " cx="32.0206398" cy="20.4422333" rx="2.5" ry="5.47939748"></ellipse>
+                    </g>
+                </g>
+
+            </g>
+        </g>
+    </g>
+</svg>
